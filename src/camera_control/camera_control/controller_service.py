@@ -9,7 +9,6 @@ from .DRV8825 import DRV8825
 class PanTiltService(Node):
     def __init__(self):
         super().__init__('controller_service')
-        self.srv = self.create_service()
 
         # Initialize motors
         self.motor1 = DRV8825(dir_pin=13, step_pin=19, enable_pin=12, mode_pins=(16, 17, 20))
