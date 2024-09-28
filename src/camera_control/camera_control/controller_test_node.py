@@ -17,7 +17,7 @@ class StepperMotorNode(Node):
         self.motor2.SetMicroStep('software', 'fullstep')
         
         # Timer to handle motor control
-        self.timer = self.create_timer(2.0, self.move_motor_up(self.motor1))
+        self.timer = self.create_timer(4.0, lambda: self.move_motor_up(self.motor1))
     
     def move_motor_up(self, motor):
         motor.TurnStep(Dir='forward', steps=20, stepdelay=0.005)
