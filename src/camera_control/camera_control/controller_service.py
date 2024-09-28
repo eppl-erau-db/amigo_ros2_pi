@@ -8,7 +8,7 @@ from .DRV8825 import DRV8825
 
 class PanTiltService(Node):
     def __init__(self):
-        super.__init__('controller_service')
+        super().__init__('controller_service')
         self.srv = self.create_service()
 
         # Initialize motors
