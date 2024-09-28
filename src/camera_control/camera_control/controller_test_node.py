@@ -21,6 +21,7 @@ class StepperMotorNode(Node):
     
     def move_motor_up(self, motor):
         motor.TurnStep(Dir='forward', steps=20, stepdelay=0.005)
+        motor.Stop()
         print("Motor moved positive")
     
     def move_motor_down(self, motor):
@@ -31,7 +32,7 @@ class StepperMotorNode(Node):
         self.motor1.Stop()
         self.motor2.Stop()
         GPIO.cleanup()
-        super().destroy()
+        super().destroy_node()
 
 def main(args=None):
     rclpy.init(args=args)
