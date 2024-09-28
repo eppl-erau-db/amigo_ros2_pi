@@ -11,6 +11,7 @@
   <depend>python3</depend>
 
   <exec_depend>DFRobot_MultiGasSensor</exec_depend>
+  <exec_depend>mysql.connector</exec_depend>
   <exec_depend>python3-sys</exec_depend>
   <exec_depend>python3-os</exec_depend>
   <exec_depend>python3-time</exec_depend>
