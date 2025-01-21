@@ -13,8 +13,8 @@ class StepperMotorNode(Node):
         self.motor2 = DRV8825(dir_pin=24, step_pin=18, enable_pin=4, mode_pins=(21, 22, 27))
         
         # Set both motors to full step
-        self.motor1.SetMicroStep('software', 'fullstep')
-        self.motor2.SetMicroStep('software', 'fullstep')
+        self.motor1.SetMicroStep('softward', 'fullstep')
+        self.motor2.SetMicroStep('softward', 'fullstep')
         
         # Timer to handle motor control
         self.timer = self.create_timer(4.0, lambda: self.move_motor_down(self.motor2))
