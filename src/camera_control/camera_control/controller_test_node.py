@@ -2,15 +2,15 @@
 import rclpy
 from rclpy.node import Node
 import RPi.GPIO as GPIO
-from .DRV8825 import DRV8825
+from .HR8825 import HR8825
 
 class StepperMotorNode(Node):
     def __init__(self):
         super().__init__('controller_test_node')
         
         # Initialize motors
-        self.motor1 = DRV8825(dir_pin=13, step_pin=19, enable_pin=12, mode_pins=(16, 17, 20))
-        self.motor2 = DRV8825(dir_pin=24, step_pin=18, enable_pin=4, mode_pins=(21, 22, 27))
+        self.motor1 = HR8825(dir_pin=13, step_pin=19, enable_pin=12, mode_pins=(16, 17, 20))
+        self.motor2 = HR8825(dir_pin=24, step_pin=18, enable_pin=4, mode_pins=(21, 22, 27))
         
         # Set both motors to full step
         self.motor1.SetMicroStep('softward', 'fullstep')
