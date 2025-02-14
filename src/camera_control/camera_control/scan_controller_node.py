@@ -59,7 +59,7 @@ class CameraScanNode(Node):
 
     def pitch_move_ccw(self):
         self.initial_pitch = self.absolute_pitch
-        self.pitch_microsteps = self.kit.stepper2.onestep(style=stepper.INTERLEAVE, direction=stepper.BACKWARD)
+        self.pitch_microsteps = self.kit.stepper2.onestep(style=stepper.INTERLEAVE, direction=stepper.FORWARD)
         self.absolute_pitch = self.initial_pitch + self.pitch_microsteps * self.angle_microstep
         self.get_logger().info(f'The Current Absolute Pitch:{self.absolute_pitch}')
     
