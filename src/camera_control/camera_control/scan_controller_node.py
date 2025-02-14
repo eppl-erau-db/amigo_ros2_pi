@@ -29,34 +29,44 @@ class CameraScanNode(Node):
     def timer_callback(self):
         for i in range(50): # 45 degrees
             self.heading_move_ccw()
+        
+        time.sleep(0.5)
 
         for i in range(50): # 45 degrees
             self.heading_move_cw()
         
+        time.sleep(0.5)
+        
         for i in range(50): # 45 degrees
             self.pitch_move_ccw()
+
+        time.sleep(0.5)
         
         for i in range(50): # 45 degrees
             self.pitch_move_cw()
         
     def heading_move_ccw(self):
+        self.initial_heading = self.absolute_heading
         self.heading_microsteps = self.kit.stepper1.onestep(style=stepper.INTERLEAVE, direction=stepper.FORWARD)
-        self.absolute_heading = self.heading_microsteps * self.angle_microstep
+        self.absolute_heading = self.initial_heading + self.heading_microsteps * self.angle_microstep
         self.get_logger().info(f'The Current Absolute Heading:{self.absolute_heading}')
 
     def heading_move_cw(self):
+        self.initial_heading = self.absolute_heading
         self.heading_microsteps = self.kit.stepper1.onestep(style=stepper.INTERLEAVE, direction=stepper.BACKWARD)
-        self.absolute_heading = - self.heading_microsteps * self.angle_microstep
+        self.absolute_heading = self.initial_heading - self.heading_microsteps * self.angle_microstep
         self.get_logger().info(f'The Current Absolute Heading:{self.absolute_heading}')
 
     def pitch_move_ccw(self):
+        self.initial_pitch = self.absolute_pitch
         self.pitch_microsteps = self.kit.stepper2.onestep(style=stepper.INTERLEAVE, direction=stepper.BACKWARD)
-        self.absolute_pitch = self.pitch_microsteps * self.angle_microstep
+        self.absolute_pitch = self.initial_pitch + self.pitch_microsteps * self.angle_microstep
         self.get_logger().info(f'The Current Absolute Pitch:{self.absolute_pitch}')
     
     def pitch_move_cw(self):
+        self.initial_pitch = self.absolute_pitch
         self.heading_microsteps = self.kit.stepper2.onestep(style=stepper.INTERLEAVE, direction=stepper.BACKWARD)
-        self.absolute_pitch = self.absolute_heading + self.pitch_microsteps * self.angle_microstep
+        self.absolute_pitch = self.initial_pitch - self.pitch_microsteps * self.angle_microstep
         self.get_logger().info(f'The Current Absolute Pitch:{self.absolute_pitch}')
     
     def destroy(self):
