@@ -1,37 +1,41 @@
 #!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
-import RPi.GPIO as GPIO
-from .HR8825 import HR8825
+import time
+import board
+from adafruit_motorkit import MotorKit
+from adafruit_motor import stepper
 
 class StepperMotorNode(Node):
     def __init__(self):
         super().__init__('controller_test_node')
         
-        # Initialize motors
-        self.motor1 = HR8825(dir_pin=13, step_pin=19, enable_pin=12, mode_pins=(16, 17, 20))
-        self.motor2 = HR8825(dir_pin=24, step_pin=18, enable_pin=4, mode_pins=(21, 22, 27))
+        # Initialize the Motor Kit
+        self.kit = MotorKit(i2c=board.I2C())
         
-        # Set both motors to full step
-        self.motor1.SetMicroStep('softward', 'fullstep')
-        self.motor2.SetMicroStep('softward', 'fullstep')
-        
-        # Timer to handle motor control
-        self.timer = self.create_timer(4.0, lambda: self.move_motor_down(self.motor1))
+        # Create timer with period of 5 seconds
+        self.timer_period = 5.0 
+        self.timer = self.create_timer(self.timer_period, self.timer_callback)
     
-    def move_motor_up(self, motor):
-        motor.TurnStep(Dir='forward', steps=200, stepdelay=0.005)
-        motor.Stop()
-        print("Motor moved positive")
+    def timer_callback(self):
+        self.move_motor_forward()
+        self.move_motor_backward()
+
+    def move_motor_forward(self):
+        for i in range(100):
+            self.kit.stepper1.onestep(style=stepper.SINGLE, direction=stepper.FORWARD)
+            time.sleep(0.01)
+        print("Stepper Motor 1 Moved FORWARD")
     
     def move_motor_down(self, motor):
-        motor.TurnStep(Dir='backward', steps=200, stepdelay=0.005)
-        print("Motor moved negative")
+        for i in range(100):
+            self.kit.stepper2.onestep(style=stepper.SINGLE, direction=stepper.BACKWARD)
+            time.sleep(0.01)
+        print("Stepper Motor 2 Moved BACKWARD")
     
     def destroy(self):
-        self.motor1.Stop()
-        self.motor2.Stop()
-        GPIO.cleanup()
+        self.kit.stepper1.release()
+        self.kit.stepper2.release()       
         super().destroy_node()
 
 def main(args=None):
