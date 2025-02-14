@@ -17,15 +17,15 @@ class StepperMotorNode(Node):
         self.motor2.SetMicroStep('softward', 'fullstep')
         
         # Timer to handle motor control
-        self.timer = self.create_timer(4.0, lambda: self.move_motor_down(self.motor2))
+        self.timer = self.create_timer(4.0, lambda: self.move_motor_down(self.motor1))
     
     def move_motor_up(self, motor):
-        motor.TurnStep(Dir='forward', steps=20, stepdelay=0.005)
+        motor.TurnStep(Dir='forward', steps=200, stepdelay=0.005)
         motor.Stop()
         print("Motor moved positive")
     
     def move_motor_down(self, motor):
-        motor.TurnStep(Dir='backward', steps=2048, stepdelay=0.005)
+        motor.TurnStep(Dir='backward', steps=200, stepdelay=0.005)
         print("Motor moved negative")
     
     def destroy(self):

@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+camera_control/DRV8825.py
+camera_control/HR8825.py
+camera_control/__init__.py
+camera_control/controller_service.py
+camera_control/controller_test_node.py
+camera_control.egg-info/PKG-INFO
+camera_control.egg-info/SOURCES.txt
+camera_control.egg-info/dependency_links.txt
+camera_control.egg-info/entry_points.txt
+camera_control.egg-info/requires.txt
+camera_control.egg-info/top_level.txt
+camera_control.egg-info/zip-safe
+resource/camera_control

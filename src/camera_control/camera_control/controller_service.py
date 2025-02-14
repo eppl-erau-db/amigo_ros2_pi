@@ -34,11 +34,11 @@ class PanTiltService(Node):
         return response
 
     def move_motor_up(self, motor):
-        motor.TurnStep(Dir='forward', steps=2048, stepdelay=0.005)
+        motor.TurnStep(Dir='forward', steps=200, stepdelay=0.005)
         self.get_logger().info("Motor moved forward")
 
     def move_motor_down(self, motor):
-        motor.TurnStep(Dir='backward', steps=2048, stepdelay=0.005)
+        motor.TurnStep(Dir='backward', steps=200, stepdelay=0.005)
         self.get_logger().info("Motor moved backward")
     
     def destroy(self):
