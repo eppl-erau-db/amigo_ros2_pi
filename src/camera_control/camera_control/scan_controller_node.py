@@ -33,7 +33,7 @@ class CameraScanNode(Node):
         self.scan_index = 0
 
         # Timer for moving between scan positions every 0.5 seconds
-        self.create_timer(2.5, self.next_scan_step)
+        self.create_timer(2.0, self.next_scan_step)
             
     def timer_callback(self):
         """ Reset scan cycle when the timer triggers. """
