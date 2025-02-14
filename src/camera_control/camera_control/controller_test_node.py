@@ -27,7 +27,7 @@ class StepperMotorNode(Node):
             time.sleep(0.01)
         print("Stepper Motor 1 Moved FORWARD")
     
-    def move_motor_down(self, motor):
+    def move_motor_backward(self, motor):
         for i in range(100):
             self.kit.stepper2.onestep(style=stepper.SINGLE, direction=stepper.BACKWARD)
             time.sleep(0.01)
