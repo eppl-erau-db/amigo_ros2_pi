@@ -14,7 +14,7 @@ class CameraScanNode(Node):
         self.kit = MotorKit(i2c=board.I2C())
         
         # Setting a timer to perform a scan every 10 seconds 
-        self.timer = self.create_timer(10.0, self.timer_callback)
+        self.timer = self.create_timer(30.0, self.timer_callback)
 
         # Initializing tracking variables
         self.heading = 0
@@ -33,7 +33,7 @@ class CameraScanNode(Node):
         self.scan_index = 0
 
         # Timer for moving between scan positions every 0.5 seconds
-        self.create_timer(0.5, self.next_scan_step)
+        self.create_timer(1.5, self.next_scan_step)
             
     def timer_callback(self):
         """ Reset scan cycle when the timer triggers. """
