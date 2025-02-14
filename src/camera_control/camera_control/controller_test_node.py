@@ -23,7 +23,7 @@ class StepperMotorNode(Node):
 
     def move_motor_forward(self):
         for i in range(100):
-            self.kit.stepper1.onestep(style=stepper.INTERLEAVE, direction=stepper.FORWARD)
+            self.kit.stepper1.onestep(style=stepper.MICROSTEP, direction=stepper.FORWARD)
             #time.sleep(0.01)
         print("Stepper Motor 1 Moved FORWARD")
     
