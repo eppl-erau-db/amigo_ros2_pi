@@ -64,23 +64,23 @@ class CameraScanNode(Node):
 
     def heading_move_ccw(self):
         self.heading_microsteps = self.kit.stepper1.onestep(style=stepper.INTERLEAVE, direction=stepper.FORWARD)
-        self.absolute_heading = self.heading_microsteps * self.angle_microstep
-        self.get_logger().info(f'The Current Absolute Heading:{self.absolute_heading}')
+        self.heading = self.heading_microsteps * self.angle_microstep
+        self.get_logger().info(f'The Current Absolute Heading:{self.heading}')
 
     def heading_move_cw(self):
         self.heading_microsteps = self.kit.stepper1.onestep(style=stepper.INTERLEAVE, direction=stepper.BACKWARD)
-        self.absolute_heading = self.heading_microsteps * self.angle_microstep
-        self.get_logger().info(f'The Current Absolute Heading:{self.absolute_heading}')
+        self.heading = self.heading_microsteps * self.angle_microstep
+        self.get_logger().info(f'The Current Absolute Heading:{self.heading}')
 
     def pitch_move_ccw(self):
         self.pitch_microsteps = self.kit.stepper2.onestep(style=stepper.INTERLEAVE, direction=stepper.FORWARD)
-        self.absolute_pitch = self.pitch_microsteps * self.angle_microstep
-        self.get_logger().info(f'The Current Absolute Pitch:{self.absolute_pitch}')
+        self.pitch = self.pitch_microsteps * self.angle_microstep
+        self.get_logger().info(f'The Current Absolute Pitch:{self.pitch}')
     
     def pitch_move_cw(self):
         self.pitch_microsteps = self.kit.stepper2.onestep(style=stepper.INTERLEAVE, direction=stepper.BACKWARD)
-        self.absolute_pitch = self.pitch_microsteps * self.angle_microstep
-        self.get_logger().info(f'The Current Absolute Pitch:{self.absolute_pitch}')
+        self.pitch = self.pitch_microsteps * self.angle_microstep
+        self.get_logger().info(f'The Current Absolute Pitch:{self.pitch}')
     
     def destroy(self):
         self.kit.stepper1.release()
