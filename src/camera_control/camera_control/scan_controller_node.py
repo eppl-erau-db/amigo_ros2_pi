@@ -8,7 +8,7 @@ from adafruit_motor import stepper
 
 class CameraScanNode(Node):
     def __init__(self):
-        super().__init__('controller_test_node')
+        super().__init__('scan_controller_node')
         
         # Initialize the Motor Kit
         self.kit = MotorKit(i2c=board.I2C())
@@ -27,11 +27,9 @@ class CameraScanNode(Node):
         self.angle_microstep = 1.8/16 # degrees
             
     def timer_callback(self):
-
         for i in range(100):
             self.heading_move_ccw()
         
-
     def heading_move_ccw(self):
         self.heading_microsteps = self.kit.stepper1.onestep(style=stepper.MICROSTEP, direction=stepper.FORWARD)
         self.absolute_heading = self.absolute_heading + self.heading_microsteps * self.angle_microstep

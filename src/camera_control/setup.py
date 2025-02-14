@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'controller_test_node = camera_control.controller_test_node:main'
+            'controller_test_node = camera_control.controller_test_node:main',
+            'scan_controller_node = camera_control.scan_controller_node:main'
         ],
     },
 )
