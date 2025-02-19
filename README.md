@@ -20,7 +20,7 @@ sudo chown :i2c /dev/i2c-1
 sudo chmod g+rw /dev/i2c-1
 sudo usermod -aG i2c amigopi
 ```
-GOALS: 
+## GOALS: 
 - Create ROS Action Server to execute the scan action.
 - Create ROS Action Client to send goals to the scan action.
 - Integrate feedback from ZEDx Mini IMU information. This is necessary because the steps are counted whether they are obstructed or not by the Adafruit MotorKit library.
