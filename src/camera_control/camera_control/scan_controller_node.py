@@ -47,7 +47,7 @@ class CameraScanNode(Node):
             self.scan_index += 1
 
     def move_camera(self, target_heading, target_pitch):
-
+        """ Move the camera to a target heading or target pitch """
         if self.heading < target_heading:
             while self.heading != target_heading:
                 self.heading_move_ccw()
@@ -63,21 +63,25 @@ class CameraScanNode(Node):
                 self.pitch_move_cw()
 
     def heading_move_ccw(self):
+        """ Move the camera heading counterclockwise """
         self.heading_microsteps = self.kit.stepper1.onestep(style=stepper.INTERLEAVE, direction=stepper.FORWARD)
         self.heading = self.heading_microsteps * self.angle_microstep
         self.get_logger().info(f'The Current Absolute Heading:{self.heading}')
 
     def heading_move_cw(self):
+        """ Move the camera heading clockwise """
         self.heading_microsteps = self.kit.stepper1.onestep(style=stepper.INTERLEAVE, direction=stepper.BACKWARD)
         self.heading = self.heading_microsteps * self.angle_microstep
         self.get_logger().info(f'The Current Absolute Heading:{self.heading}')
 
     def pitch_move_ccw(self):
+        """ Move the camera pitch counterclockwise """
         self.pitch_microsteps = self.kit.stepper2.onestep(style=stepper.INTERLEAVE, direction=stepper.FORWARD)
         self.pitch = self.pitch_microsteps * self.angle_microstep
         self.get_logger().info(f'The Current Absolute Pitch:{self.pitch}')
     
     def pitch_move_cw(self):
+        """ Move the camera pitch clockwise """
         self.pitch_microsteps = self.kit.stepper2.onestep(style=stepper.INTERLEAVE, direction=stepper.BACKWARD)
         self.pitch = self.pitch_microsteps * self.angle_microstep
         self.get_logger().info(f'The Current Absolute Pitch:{self.pitch}')

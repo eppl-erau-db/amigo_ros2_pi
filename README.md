@@ -1,19 +1,26 @@
 # amigo_ros2_pi
-ROS2 Support for Pi 
+AMIGO ROS2 Support for Pi 
 
-Sourcing ROS:
+Sourcing ROS on the Pi:
 ```
 . ~/ros2_humble/ros2-linux/setup.bash
-sudo bash -c "source /opt/ros/humble/setup.bash && source /home/amigopi/workspaces/amigo_ros2_pi/install/setup.bash && ros2 run camera_control controller_test_node"
 ```
 
-sudo bash -c ". /home/amigopi/ros2_humble/ros2-linux/setup.bash && source /home/amigopi/workspaces/amigo_ros2_pi/install/setup.bash && ros2 run camera_control controller_test_node"
+Running the current camera control node, make sure to supply 5V to the Pi and 5V to the stepper HAT
+```
+cd workspaces/amigo_ros2_pi &&
+source install/setup.bash &&
+ros2 run camera_control controller_test_node
+```
 
-
-
+If, the permissions are not allowing you to control the motors through i2c (should not be the case and it would say it explicitly):
+```
 sudo groupadd i2c
 sudo chown :i2c /dev/i2c-1
 sudo chmod g+rw /dev/i2c-1
 sudo usermod -aG i2c amigopi
-su root
-# echo 'KERNEL=="i2c-[0-9]*", GROUP="i2c"' >> /etc/udev/rules.d/10-local_i2c_group.rules
+```
+GOAL: 
+- Create ROS Action Server to execute the scan action.
+- Create ROS Action Client to send goals to the scan action.
+- Integrate feedback from ZEDx Mini IMU information. This is necessary because the steps are counted whether they are obstructed or not by the Adafruit MotorKit library.
