@@ -1,6 +1,6 @@
 Add this to launch file 
 
-```python
+
 Node(
     package='amigo_ros2_pi',
     executable='camera_pan_service_server',
