@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'controller_test_node = camera_control.controller_test_node:main',
+            'scan_controller_service = amigo_ros2_pi.scan_controller_service:main',
             'scan_controller_node = camera_control.scan_controller_node:main'
         ],
     },
