@@ -1,15 +1,15 @@
 Add this to launch file 
 
-```bash
+```python
 Node(
-            package='amigo_ros2_pi',
-            executable='camera_pan_service_server',
-            name='camera_pan_service_server',
-            output='screen'
-        ),
-        Node(
-            package='amigo_ros2_pi',
-            executable='camera_pan_service_client',
-            name='camera_pan_service_client',
-            output='screen'
-        ),
+    package='amigo_ros2_pi',
+    executable='camera_pan_service_server',
+    name='camera_pan_service_server',
+    output='screen'
+),
+Node(
+    package='amigo_ros2_pi',
+    executable='camera_pan_service_client',
+    name='camera_pan_service_client',
+    output='screen'
+)
