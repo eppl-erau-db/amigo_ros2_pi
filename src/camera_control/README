@@ -1,6 +1,6 @@
 Add this to launch file 
 
-```
+```bash
 Node(
             package='amigo_ros2_pi',
             executable='camera_pan_service_server',
@@ -12,4 +12,4 @@ Node(
             executable='camera_pan_service_client',
             name='camera_pan_service_client',
             output='screen'
-        ),```
+        ),
