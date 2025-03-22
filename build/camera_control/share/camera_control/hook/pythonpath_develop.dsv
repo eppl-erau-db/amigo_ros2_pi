@@ -1,1 +1,1 @@
-prepend-non-duplicate;PYTHONPATH;/home/amigopi/workspaces/amigo_ros2_pi/build/camera_control
+prepend-non-duplicate;PYTHONPATH;/home/amigo-pi/amigo_ros2_pi/build/camera_control

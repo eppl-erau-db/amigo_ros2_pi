@@ -1,0 +1,15 @@
+/home/amigo-pi/amigo_ros2_pi/install/ublox/share/ament_index/resource_index/package_run_dependencies/ublox
+/home/amigo-pi/amigo_ros2_pi/install/ublox/share/ament_index/resource_index/parent_prefix_path/ublox
+/home/amigo-pi/amigo_ros2_pi/install/ublox/share/ublox/environment/ament_prefix_path.sh
+/home/amigo-pi/amigo_ros2_pi/install/ublox/share/ublox/environment/ament_prefix_path.dsv
+/home/amigo-pi/amigo_ros2_pi/install/ublox/share/ublox/environment/path.sh
+/home/amigo-pi/amigo_ros2_pi/install/ublox/share/ublox/environment/path.dsv
+/home/amigo-pi/amigo_ros2_pi/install/ublox/share/ublox/local_setup.bash
+/home/amigo-pi/amigo_ros2_pi/install/ublox/share/ublox/local_setup.sh
+/home/amigo-pi/amigo_ros2_pi/install/ublox/share/ublox/local_setup.zsh
+/home/amigo-pi/amigo_ros2_pi/install/ublox/share/ublox/local_setup.dsv
+/home/amigo-pi/amigo_ros2_pi/install/ublox/share/ublox/package.dsv
+/home/amigo-pi/amigo_ros2_pi/install/ublox/share/ament_index/resource_index/packages/ublox
+/home/amigo-pi/amigo_ros2_pi/install/ublox/share/ublox/cmake/ubloxConfig.cmake
+/home/amigo-pi/amigo_ros2_pi/install/ublox/share/ublox/cmake/ubloxConfig-version.cmake
+/home/amigo-pi/amigo_ros2_pi/install/ublox/share/ublox/package.xml

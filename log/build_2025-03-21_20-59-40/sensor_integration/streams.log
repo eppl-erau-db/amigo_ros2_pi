@@ -1,0 +1,37 @@
+[10.757s] Invoking command in '/home/amigo-pi/amigo_ros2_pi/src/sensor_integration': PYTHONPATH=/home/amigo-pi/amigo_ros2_pi/build/sensor_integration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amigo-pi/amigo_ros2_pi/install/sensor_integration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_integration build --build-base /home/amigo-pi/amigo_ros2_pi/build/sensor_integration/build install --record /home/amigo-pi/amigo_ros2_pi/build/sensor_integration/install.log --single-version-externally-managed install_data
+[15.435s] running egg_info
+[15.457s] creating ../../build/sensor_integration/sensor_integration.egg-info
+[15.459s] writing ../../build/sensor_integration/sensor_integration.egg-info/PKG-INFO
+[15.474s] writing dependency_links to ../../build/sensor_integration/sensor_integration.egg-info/dependency_links.txt
+[15.475s] writing entry points to ../../build/sensor_integration/sensor_integration.egg-info/entry_points.txt
+[15.476s] writing requirements to ../../build/sensor_integration/sensor_integration.egg-info/requires.txt
+[15.477s] writing top-level names to ../../build/sensor_integration/sensor_integration.egg-info/top_level.txt
+[15.489s] writing manifest file '../../build/sensor_integration/sensor_integration.egg-info/SOURCES.txt'
+[15.511s] reading manifest file '../../build/sensor_integration/sensor_integration.egg-info/SOURCES.txt'
+[15.514s] adding license file 'LICENSE'
+[15.522s] writing manifest file '../../build/sensor_integration/sensor_integration.egg-info/SOURCES.txt'
+[15.527s] running build
+[15.532s] running build_py
+[15.533s] creating /home/amigo-pi/amigo_ros2_pi/build/sensor_integration/build
+[15.534s] creating /home/amigo-pi/amigo_ros2_pi/build/sensor_integration/build/lib
+[15.534s] creating /home/amigo-pi/amigo_ros2_pi/build/sensor_integration/build/lib/sensor_integration
+[15.537s] copying sensor_integration/__init__.py -> /home/amigo-pi/amigo_ros2_pi/build/sensor_integration/build/lib/sensor_integration
+[15.541s] copying sensor_integration/gas_sensor_publisher.py -> /home/amigo-pi/amigo_ros2_pi/build/sensor_integration/build/lib/sensor_integration
+[15.553s] running install
+[15.556s] running install_lib
+[15.619s] creating /home/amigo-pi/amigo_ros2_pi/install/sensor_integration/lib/python3.10/site-packages/sensor_integration
+[15.624s] copying /home/amigo-pi/amigo_ros2_pi/build/sensor_integration/build/lib/sensor_integration/__init__.py -> /home/amigo-pi/amigo_ros2_pi/install/sensor_integration/lib/python3.10/site-packages/sensor_integration
+[15.631s] copying /home/amigo-pi/amigo_ros2_pi/build/sensor_integration/build/lib/sensor_integration/gas_sensor_publisher.py -> /home/amigo-pi/amigo_ros2_pi/install/sensor_integration/lib/python3.10/site-packages/sensor_integration
+[15.649s] byte-compiling /home/amigo-pi/amigo_ros2_pi/install/sensor_integration/lib/python3.10/site-packages/sensor_integration/__init__.py to __init__.cpython-310.pyc
+[15.659s] byte-compiling /home/amigo-pi/amigo_ros2_pi/install/sensor_integration/lib/python3.10/site-packages/sensor_integration/gas_sensor_publisher.py to gas_sensor_publisher.cpython-310.pyc
+[15.669s] running install_data
+[15.670s] creating /home/amigo-pi/amigo_ros2_pi/install/sensor_integration/share/ament_index
+[15.671s] creating /home/amigo-pi/amigo_ros2_pi/install/sensor_integration/share/ament_index/resource_index
+[15.671s] creating /home/amigo-pi/amigo_ros2_pi/install/sensor_integration/share/ament_index/resource_index/packages
+[15.673s] copying resource/sensor_integration -> /home/amigo-pi/amigo_ros2_pi/install/sensor_integration/share/ament_index/resource_index/packages
+[15.676s] copying package.xml -> /home/amigo-pi/amigo_ros2_pi/install/sensor_integration/share/sensor_integration
+[15.690s] running install_egg_info
+[15.714s] Copying ../../build/sensor_integration/sensor_integration.egg-info to /home/amigo-pi/amigo_ros2_pi/install/sensor_integration/lib/python3.10/site-packages/sensor_integration-0.0.0-py3.10.egg-info
+[15.716s] running install_scripts
+[16.338s] writing list of installed files to '/home/amigo-pi/amigo_ros2_pi/build/sensor_integration/install.log'
+[16.427s] Invoked command in '/home/amigo-pi/amigo_ros2_pi/src/sensor_integration' returned '0': PYTHONPATH=/home/amigo-pi/amigo_ros2_pi/build/sensor_integration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amigo-pi/amigo_ros2_pi/install/sensor_integration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_integration build --build-base /home/amigo-pi/amigo_ros2_pi/build/sensor_integration/build install --record /home/amigo-pi/amigo_ros2_pi/build/sensor_integration/install.log --single-version-externally-managed install_data

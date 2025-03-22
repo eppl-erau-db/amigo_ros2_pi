@@ -1,0 +1,25 @@
+[0.169s] Invoking command in '/home/amigo-pi/amigo_ros2_pi/build/ublox_serialization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/amigo-pi/amigo_ros2_pi/build/ublox_serialization -- -j4 -l4
+[4.501s] Invoked command in '/home/amigo-pi/amigo_ros2_pi/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/amigo-pi/amigo_ros2_pi/build/ublox_serialization -- -j4 -l4
+[4.561s] Invoking command in '/home/amigo-pi/amigo_ros2_pi/build/ublox_serialization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/amigo-pi/amigo_ros2_pi/build/ublox_serialization
+[4.621s] -- Install configuration: ""
+[4.626s] -- Up-to-date: /home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/include
+[4.629s] -- Up-to-date: /home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/include/ublox_serialization
+[4.634s] -- Up-to-date: /home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/include/ublox_serialization/serialization.hpp
+[4.636s] -- Up-to-date: /home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/include/ublox_serialization/checksum.hpp
+[4.642s] -- Up-to-date: /home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/share/ament_index/resource_index/package_run_dependencies/ublox_serialization
+[4.644s] -- Up-to-date: /home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/share/ament_index/resource_index/parent_prefix_path/ublox_serialization
+[4.647s] -- Up-to-date: /home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/share/ublox_serialization/environment/ament_prefix_path.sh
+[4.649s] -- Up-to-date: /home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/share/ublox_serialization/environment/ament_prefix_path.dsv
+[4.651s] -- Up-to-date: /home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/share/ublox_serialization/environment/path.sh
+[4.652s] -- Up-to-date: /home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/share/ublox_serialization/environment/path.dsv
+[4.653s] -- Up-to-date: /home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/share/ublox_serialization/local_setup.bash
+[4.654s] -- Up-to-date: /home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/share/ublox_serialization/local_setup.sh
+[4.655s] -- Up-to-date: /home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/share/ublox_serialization/local_setup.zsh
+[4.656s] -- Up-to-date: /home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/share/ublox_serialization/local_setup.dsv
+[4.658s] -- Up-to-date: /home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/share/ublox_serialization/package.dsv
+[4.659s] -- Up-to-date: /home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/share/ament_index/resource_index/packages/ublox_serialization
+[4.664s] -- Up-to-date: /home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/share/ublox_serialization/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.667s] -- Up-to-date: /home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/share/ublox_serialization/cmake/ublox_serializationConfig.cmake
+[4.671s] -- Up-to-date: /home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/share/ublox_serialization/cmake/ublox_serializationConfig-version.cmake
+[4.672s] -- Up-to-date: /home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/share/ublox_serialization/package.xml
+[4.705s] Invoked command in '/home/amigo-pi/amigo_ros2_pi/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/amigo-pi/amigo_ros2_pi/build/ublox_serialization

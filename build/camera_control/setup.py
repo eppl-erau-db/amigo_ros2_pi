@@ -1,1 +1,1 @@
-/home/amigopi/workspaces/amigo_ros2_pi/src/camera_control/setup.py
+/home/amigo-pi/amigo_ros2_pi/src/camera_control/setup.py

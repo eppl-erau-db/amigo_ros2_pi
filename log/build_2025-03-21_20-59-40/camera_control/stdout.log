@@ -1,0 +1,50 @@
+running egg_info
+creating ../../build/camera_control/camera_control.egg-info
+writing ../../build/camera_control/camera_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/camera_control/camera_control.egg-info/dependency_links.txt
+writing entry points to ../../build/camera_control/camera_control.egg-info/entry_points.txt
+writing requirements to ../../build/camera_control/camera_control.egg-info/requires.txt
+writing top-level names to ../../build/camera_control/camera_control.egg-info/top_level.txt
+writing manifest file '../../build/camera_control/camera_control.egg-info/SOURCES.txt'
+reading manifest file '../../build/camera_control/camera_control.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/camera_control/camera_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/amigo-pi/amigo_ros2_pi/build/camera_control/build
+creating /home/amigo-pi/amigo_ros2_pi/build/camera_control/build/lib
+creating /home/amigo-pi/amigo_ros2_pi/build/camera_control/build/lib/camera_control
+copying camera_control/Camera_Client_example.py -> /home/amigo-pi/amigo_ros2_pi/build/camera_control/build/lib/camera_control
+copying camera_control/service_example.py -> /home/amigo-pi/amigo_ros2_pi/build/camera_control/build/lib/camera_control
+copying camera_control/__init__.py -> /home/amigo-pi/amigo_ros2_pi/build/camera_control/build/lib/camera_control
+copying camera_control/controller_test_node.py -> /home/amigo-pi/amigo_ros2_pi/build/camera_control/build/lib/camera_control
+copying camera_control/scan_controller_node.py -> /home/amigo-pi/amigo_ros2_pi/build/camera_control/build/lib/camera_control
+copying camera_control/scan_controller_service.py -> /home/amigo-pi/amigo_ros2_pi/build/camera_control/build/lib/camera_control
+running install
+running install_lib
+creating /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages/camera_control
+copying /home/amigo-pi/amigo_ros2_pi/build/camera_control/build/lib/camera_control/Camera_Client_example.py -> /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages/camera_control
+copying /home/amigo-pi/amigo_ros2_pi/build/camera_control/build/lib/camera_control/service_example.py -> /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages/camera_control
+copying /home/amigo-pi/amigo_ros2_pi/build/camera_control/build/lib/camera_control/__init__.py -> /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages/camera_control
+copying /home/amigo-pi/amigo_ros2_pi/build/camera_control/build/lib/camera_control/controller_test_node.py -> /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages/camera_control
+copying /home/amigo-pi/amigo_ros2_pi/build/camera_control/build/lib/camera_control/scan_controller_node.py -> /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages/camera_control
+copying /home/amigo-pi/amigo_ros2_pi/build/camera_control/build/lib/camera_control/scan_controller_service.py -> /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages/camera_control
+byte-compiling /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages/camera_control/Camera_Client_example.py to Camera_Client_example.cpython-310.pyc
+byte-compiling /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages/camera_control/service_example.py to service_example.cpython-310.pyc
+byte-compiling /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages/camera_control/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages/camera_control/controller_test_node.py to controller_test_node.cpython-310.pyc
+byte-compiling /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages/camera_control/scan_controller_node.py to scan_controller_node.cpython-310.pyc
+byte-compiling /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages/camera_control/scan_controller_service.py to scan_controller_service.cpython-310.pyc
+running install_data
+creating /home/amigo-pi/amigo_ros2_pi/install/camera_control/share/ament_index
+creating /home/amigo-pi/amigo_ros2_pi/install/camera_control/share/ament_index/resource_index
+creating /home/amigo-pi/amigo_ros2_pi/install/camera_control/share/ament_index/resource_index/packages
+copying resource/camera_control -> /home/amigo-pi/amigo_ros2_pi/install/camera_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/amigo-pi/amigo_ros2_pi/install/camera_control/share/camera_control
+running install_egg_info
+Copying ../../build/camera_control/camera_control.egg-info to /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages/camera_control-0.0.1-py3.10.egg-info
+running install_scripts
+Installing controller_test_node script to /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/camera_control
+Installing scan_controller_node script to /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/camera_control
+Installing scan_controller_service script to /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/camera_control
+writing list of installed files to '/home/amigo-pi/amigo_ros2_pi/build/camera_control/install.log'

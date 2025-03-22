@@ -1,0 +1,474 @@
+[1.725s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.725s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffb0c65600>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb0e0e590>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb0e0e590>>, mixin_verb=('build',))
+[3.593s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.595s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.595s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/amigo-pi/amigo_ros2_pi'
+[3.595s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.596s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.597s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.597s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.598s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.598s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.599s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.599s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.599s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.677s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.678s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.678s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.678s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.678s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.679s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.679s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.680s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.680s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.681s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.682s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.682s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.683s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.684s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.685s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.685s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.686s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.686s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.687s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.687s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.688s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.688s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.689s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.689s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.690s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.690s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.690s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.690s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_control) by extensions ['ignore', 'ignore_ament_install']
+[3.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_control) by extension 'ignore'
+[3.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_control) by extension 'ignore_ament_install'
+[3.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_control) by extensions ['colcon_pkg']
+[3.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_control) by extension 'colcon_pkg'
+[3.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_control) by extensions ['colcon_meta']
+[3.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_control) by extension 'colcon_meta'
+[3.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_control) by extensions ['ros']
+[3.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_control) by extension 'ros'
+[3.712s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_control' with type 'ros.ament_python' and name 'camera_control'
+[3.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extensions ['ignore', 'ignore_ament_install']
+[3.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'ignore'
+[3.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'ignore_ament_install'
+[3.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extensions ['colcon_pkg']
+[3.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'colcon_pkg'
+[3.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extensions ['colcon_meta']
+[3.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'colcon_meta'
+[3.717s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extensions ['ros']
+[3.717s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'ros'
+[3.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extensions ['cmake', 'python']
+[3.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'cmake'
+[3.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'python'
+[3.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extensions ['python_setup_py']
+[3.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'python_setup_py'
+[3.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extensions ['ignore', 'ignore_ament_install']
+[3.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'ignore'
+[3.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'ignore_ament_install'
+[3.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extensions ['colcon_pkg']
+[3.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'colcon_pkg'
+[3.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extensions ['colcon_meta']
+[3.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'colcon_meta'
+[3.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extensions ['ros']
+[3.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'ros'
+[3.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extensions ['cmake', 'python']
+[3.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'cmake'
+[3.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'python'
+[3.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extensions ['python_setup_py']
+[3.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'python_setup_py'
+[3.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extensions ['ignore', 'ignore_ament_install']
+[3.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extension 'ignore'
+[3.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extension 'ignore_ament_install'
+[3.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extensions ['colcon_pkg']
+[3.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extension 'colcon_pkg'
+[3.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extensions ['colcon_meta']
+[3.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extension 'colcon_meta'
+[3.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extensions ['ros']
+[3.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extension 'ros'
+[3.737s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-ublox-zedf9p/ublox' with type 'ros.ament_cmake' and name 'ublox'
+[3.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extensions ['ignore', 'ignore_ament_install']
+[3.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extension 'ignore'
+[3.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extension 'ignore_ament_install'
+[3.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extensions ['colcon_pkg']
+[3.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extension 'colcon_pkg'
+[3.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extensions ['colcon_meta']
+[3.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extension 'colcon_meta'
+[3.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extensions ['ros']
+[3.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extension 'ros'
+[3.754s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-ublox-zedf9p/ublox_gps' with type 'ros.ament_cmake' and name 'ublox_gps'
+[3.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extensions ['ignore', 'ignore_ament_install']
+[3.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extension 'ignore'
+[3.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extension 'ignore_ament_install'
+[3.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extensions ['colcon_pkg']
+[3.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extension 'colcon_pkg'
+[3.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extensions ['colcon_meta']
+[3.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extension 'colcon_meta'
+[3.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extensions ['ros']
+[3.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extension 'ros'
+[3.766s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-ublox-zedf9p/ublox_msgs' with type 'ros.ament_cmake' and name 'ublox_msgs'
+[3.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extensions ['ignore', 'ignore_ament_install']
+[3.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extension 'ignore'
+[3.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extension 'ignore_ament_install'
+[3.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extensions ['colcon_pkg']
+[3.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extension 'colcon_pkg'
+[3.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extensions ['colcon_meta']
+[3.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extension 'colcon_meta'
+[3.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extensions ['ros']
+[3.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extension 'ros'
+[3.774s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-ublox-zedf9p/ublox_serialization' with type 'ros.ament_cmake' and name 'ublox_serialization'
+[3.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_integration) by extensions ['ignore', 'ignore_ament_install']
+[3.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_integration) by extension 'ignore'
+[3.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_integration) by extension 'ignore_ament_install'
+[3.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_integration) by extensions ['colcon_pkg']
+[3.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_integration) by extension 'colcon_pkg'
+[3.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_integration) by extensions ['colcon_meta']
+[3.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_integration) by extension 'colcon_meta'
+[3.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_integration) by extensions ['ros']
+[3.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_integration) by extension 'ros'
+[3.782s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensor_integration' with type 'ros.ament_python' and name 'sensor_integration'
+[3.782s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.782s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.782s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.782s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.783s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.042s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.043s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.071s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 272 installed packages in /opt/ros/humble
+[4.078s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.308s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'cmake_args' from command line to 'None'
+[4.309s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'cmake_target' from command line to 'None'
+[4.309s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.309s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'cmake_clean_cache' from command line to 'False'
+[4.309s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'cmake_clean_first' from command line to 'False'
+[4.309s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'cmake_force_configure' from command line to 'False'
+[4.309s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'ament_cmake_args' from command line to 'None'
+[4.309s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'catkin_cmake_args' from command line to 'None'
+[4.309s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.310s] DEBUG:colcon.colcon_core.verb:Building package 'camera_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/amigo-pi/amigo_ros2_pi/build/camera_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/amigo-pi/amigo_ros2_pi/install/camera_control', 'merge_install': False, 'path': '/home/amigo-pi/amigo_ros2_pi/src/camera_control', 'symlink_install': False, 'test_result_base': None}
+[4.311s] Level 5:colcon.colcon_core.verb:set package 'sensor_integration' build argument 'cmake_args' from command line to 'None'
+[4.311s] Level 5:colcon.colcon_core.verb:set package 'sensor_integration' build argument 'cmake_target' from command line to 'None'
+[4.311s] Level 5:colcon.colcon_core.verb:set package 'sensor_integration' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.312s] Level 5:colcon.colcon_core.verb:set package 'sensor_integration' build argument 'cmake_clean_cache' from command line to 'False'
+[4.312s] Level 5:colcon.colcon_core.verb:set package 'sensor_integration' build argument 'cmake_clean_first' from command line to 'False'
+[4.312s] Level 5:colcon.colcon_core.verb:set package 'sensor_integration' build argument 'cmake_force_configure' from command line to 'False'
+[4.312s] Level 5:colcon.colcon_core.verb:set package 'sensor_integration' build argument 'ament_cmake_args' from command line to 'None'
+[4.312s] Level 5:colcon.colcon_core.verb:set package 'sensor_integration' build argument 'catkin_cmake_args' from command line to 'None'
+[4.312s] Level 5:colcon.colcon_core.verb:set package 'sensor_integration' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.312s] DEBUG:colcon.colcon_core.verb:Building package 'sensor_integration' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/amigo-pi/amigo_ros2_pi/build/sensor_integration', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/amigo-pi/amigo_ros2_pi/install/sensor_integration', 'merge_install': False, 'path': '/home/amigo-pi/amigo_ros2_pi/src/sensor_integration', 'symlink_install': False, 'test_result_base': None}
+[4.314s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_args' from command line to 'None'
+[4.314s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_target' from command line to 'None'
+[4.315s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.315s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_clean_cache' from command line to 'False'
+[4.315s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_clean_first' from command line to 'False'
+[4.315s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_force_configure' from command line to 'False'
+[4.315s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'ament_cmake_args' from command line to 'None'
+[4.315s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'catkin_cmake_args' from command line to 'None'
+[4.316s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.316s] DEBUG:colcon.colcon_core.verb:Building package 'ublox_serialization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/amigo-pi/amigo_ros2_pi/build/ublox_serialization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization', 'merge_install': False, 'path': '/home/amigo-pi/amigo_ros2_pi/src/ros2-ublox-zedf9p/ublox_serialization', 'symlink_install': False, 'test_result_base': None}
+[4.318s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_args' from command line to 'None'
+[4.319s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_target' from command line to 'None'
+[4.319s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.319s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[4.319s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[4.319s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[4.320s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[4.320s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[4.320s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.320s] DEBUG:colcon.colcon_core.verb:Building package 'ublox_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/amigo-pi/amigo_ros2_pi/build/ublox_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs', 'merge_install': False, 'path': '/home/amigo-pi/amigo_ros2_pi/src/ros2-ublox-zedf9p/ublox_msgs', 'symlink_install': False, 'test_result_base': None}
+[4.323s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_args' from command line to 'None'
+[4.323s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_target' from command line to 'None'
+[4.323s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.324s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_clean_cache' from command line to 'False'
+[4.324s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_clean_first' from command line to 'False'
+[4.324s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_force_configure' from command line to 'False'
+[4.324s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'ament_cmake_args' from command line to 'None'
+[4.324s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'catkin_cmake_args' from command line to 'None'
+[4.324s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.324s] DEBUG:colcon.colcon_core.verb:Building package 'ublox_gps' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/amigo-pi/amigo_ros2_pi/build/ublox_gps', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/amigo-pi/amigo_ros2_pi/install/ublox_gps', 'merge_install': False, 'path': '/home/amigo-pi/amigo_ros2_pi/src/ros2-ublox-zedf9p/ublox_gps', 'symlink_install': False, 'test_result_base': None}
+[4.326s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_args' from command line to 'None'
+[4.326s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_target' from command line to 'None'
+[4.326s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.326s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_clean_cache' from command line to 'False'
+[4.327s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_clean_first' from command line to 'False'
+[4.327s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_force_configure' from command line to 'False'
+[4.327s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'ament_cmake_args' from command line to 'None'
+[4.327s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'catkin_cmake_args' from command line to 'None'
+[4.327s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.327s] DEBUG:colcon.colcon_core.verb:Building package 'ublox' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/amigo-pi/amigo_ros2_pi/build/ublox', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/amigo-pi/amigo_ros2_pi/install/ublox', 'merge_install': False, 'path': '/home/amigo-pi/amigo_ros2_pi/src/ros2-ublox-zedf9p/ublox', 'symlink_install': False, 'test_result_base': None}
+[4.328s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.334s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.336s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/amigo-pi/amigo_ros2_pi/src/ros2-ublox-zedf9p/ublox_serialization' with build type 'ament_cmake'
+[4.337s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/amigo-pi/amigo_ros2_pi/src/ros2-ublox-zedf9p/ublox_serialization'
+[4.372s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.374s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.374s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.400s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/amigo-pi/amigo_ros2_pi/src/camera_control' with build type 'ament_python'
+[4.402s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_control', 'ament_prefix_path')
+[4.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amigo-pi/amigo_ros2_pi/install/camera_control/share/camera_control/hook/ament_prefix_path.ps1'
+[4.411s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amigo-pi/amigo_ros2_pi/install/camera_control/share/camera_control/hook/ament_prefix_path.dsv'
+[4.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amigo-pi/amigo_ros2_pi/install/camera_control/share/camera_control/hook/ament_prefix_path.sh'
+[4.421s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.421s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.445s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/amigo-pi/amigo_ros2_pi/src/sensor_integration' with build type 'ament_python'
+[4.446s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_integration', 'ament_prefix_path')
+[4.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amigo-pi/amigo_ros2_pi/install/sensor_integration/share/sensor_integration/hook/ament_prefix_path.ps1'
+[4.452s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amigo-pi/amigo_ros2_pi/install/sensor_integration/share/sensor_integration/hook/ament_prefix_path.dsv'
+[4.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amigo-pi/amigo_ros2_pi/install/sensor_integration/share/sensor_integration/hook/ament_prefix_path.sh'
+[4.463s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.463s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.509s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amigo-pi/amigo_ros2_pi/build/ublox_serialization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/amigo-pi/amigo_ros2_pi/build/ublox_serialization -- -j4 -l4
+[6.619s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/amigo-pi/amigo_ros2_pi/src/camera_control'
+[6.620s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.621s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.815s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/amigo-pi/amigo_ros2_pi/src/sensor_integration'
+[8.817s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.818s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.841s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amigo-pi/amigo_ros2_pi/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/amigo-pi/amigo_ros2_pi/build/ublox_serialization -- -j4 -l4
+[8.902s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amigo-pi/amigo_ros2_pi/build/ublox_serialization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/amigo-pi/amigo_ros2_pi/build/ublox_serialization
+[9.030s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_serialization)
+[9.046s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amigo-pi/amigo_ros2_pi/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/amigo-pi/amigo_ros2_pi/build/ublox_serialization
+[9.104s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization' for CMake module files
+[9.107s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization' for CMake config files
+[9.113s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_serialization', 'cmake_prefix_path')
+[9.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.ps1'
+[9.122s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.dsv'
+[9.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.sh'
+[9.139s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/bin'
+[9.140s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/lib/pkgconfig/ublox_serialization.pc'
+[9.142s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/lib/python3.10/site-packages'
+[9.147s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/bin'
+[9.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/share/ublox_serialization/package.ps1'
+[9.161s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/share/ublox_serialization/package.dsv'
+[9.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/share/ublox_serialization/package.sh'
+[9.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/share/ublox_serialization/package.bash'
+[9.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/share/ublox_serialization/package.zsh'
+[9.202s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/share/colcon-core/packages/ublox_serialization)
+[9.210s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_serialization)
+[9.212s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization' for CMake module files
+[9.220s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization' for CMake config files
+[9.225s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_serialization', 'cmake_prefix_path')
+[9.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.ps1'
+[9.230s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.dsv'
+[9.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.sh'
+[9.242s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/bin'
+[9.243s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/lib/pkgconfig/ublox_serialization.pc'
+[9.246s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/lib/python3.10/site-packages'
+[9.249s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/bin'
+[9.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/share/ublox_serialization/package.ps1'
+[9.259s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/share/ublox_serialization/package.dsv'
+[9.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/share/ublox_serialization/package.sh'
+[9.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/share/ublox_serialization/package.bash'
+[9.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/share/ublox_serialization/package.zsh'
+[9.281s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization/share/colcon-core/packages/ublox_serialization)
+[9.284s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/amigo-pi/amigo_ros2_pi/src/ros2-ublox-zedf9p/ublox_msgs' with build type 'ament_cmake'
+[9.286s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/amigo-pi/amigo_ros2_pi/src/ros2-ublox-zedf9p/ublox_msgs'
+[9.289s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.301s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.416s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amigo-pi/amigo_ros2_pi/build/ublox_msgs': AMENT_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:/opt/ros/humble /usr/bin/cmake --build /home/amigo-pi/amigo_ros2_pi/build/ublox_msgs -- -j4 -l4
+[15.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amigo-pi/amigo_ros2_pi/src/sensor_integration': PYTHONPATH=/home/amigo-pi/amigo_ros2_pi/build/sensor_integration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amigo-pi/amigo_ros2_pi/install/sensor_integration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_integration build --build-base /home/amigo-pi/amigo_ros2_pi/build/sensor_integration/build install --record /home/amigo-pi/amigo_ros2_pi/build/sensor_integration/install.log --single-version-externally-managed install_data
+[15.526s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amigo-pi/amigo_ros2_pi/src/camera_control': PYTHONPATH=/home/amigo-pi/amigo_ros2_pi/build/camera_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_control build --build-base /home/amigo-pi/amigo_ros2_pi/build/camera_control/build install --record /home/amigo-pi/amigo_ros2_pi/build/camera_control/install.log --single-version-externally-managed install_data
+[17.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amigo-pi/amigo_ros2_pi/build/ublox_msgs' returned '0': AMENT_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:/opt/ros/humble /usr/bin/cmake --build /home/amigo-pi/amigo_ros2_pi/build/ublox_msgs -- -j4 -l4
+[17.965s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amigo-pi/amigo_ros2_pi/build/ublox_msgs': AMENT_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:/opt/ros/humble /usr/bin/cmake --install /home/amigo-pi/amigo_ros2_pi/build/ublox_msgs
+[19.707s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/sensor_integration' for CMake module files
+[19.712s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/sensor_integration' for CMake config files
+[19.732s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/sensor_integration/lib'
+[19.734s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/sensor_integration/bin'
+[19.735s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/sensor_integration/lib/pkgconfig/sensor_integration.pc'
+[19.758s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/sensor_integration/lib/python3.10/site-packages'
+[19.761s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_integration', 'pythonpath')
+[19.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amigo-pi/amigo_ros2_pi/install/sensor_integration/share/sensor_integration/hook/pythonpath.ps1'
+[19.773s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amigo-pi/amigo_ros2_pi/install/sensor_integration/share/sensor_integration/hook/pythonpath.dsv'
+[19.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amigo-pi/amigo_ros2_pi/install/sensor_integration/share/sensor_integration/hook/pythonpath.sh'
+[19.799s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/sensor_integration/bin'
+[19.809s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensor_integration)
+[19.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/sensor_integration/share/sensor_integration/package.ps1'
+[19.820s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/amigo-pi/amigo_ros2_pi/install/sensor_integration/share/sensor_integration/package.dsv'
+[19.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/sensor_integration/share/sensor_integration/package.sh'
+[19.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/sensor_integration/share/sensor_integration/package.bash'
+[19.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/sensor_integration/share/sensor_integration/package.zsh'
+[19.866s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/amigo-pi/amigo_ros2_pi/install/sensor_integration/share/colcon-core/packages/sensor_integration)
+[20.509s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/camera_control' for CMake module files
+[20.530s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/camera_control' for CMake config files
+[20.594s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/camera_control/lib'
+[20.597s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/camera_control/bin'
+[20.598s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/pkgconfig/camera_control.pc'
+[20.604s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages'
+[20.606s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_control', 'pythonpath')
+[20.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amigo-pi/amigo_ros2_pi/install/camera_control/share/camera_control/hook/pythonpath.ps1'
+[20.621s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amigo-pi/amigo_ros2_pi/install/camera_control/share/camera_control/hook/pythonpath.dsv'
+[20.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amigo-pi/amigo_ros2_pi/install/camera_control/share/camera_control/hook/pythonpath.sh'
+[20.662s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/camera_control/bin'
+[20.664s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_control)
+[20.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/camera_control/share/camera_control/package.ps1'
+[20.677s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/amigo-pi/amigo_ros2_pi/install/camera_control/share/camera_control/package.dsv'
+[20.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/camera_control/share/camera_control/package.sh'
+[20.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/camera_control/share/camera_control/package.bash'
+[20.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/camera_control/share/camera_control/package.zsh'
+[20.721s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/amigo-pi/amigo_ros2_pi/install/camera_control/share/colcon-core/packages/camera_control)
+[20.783s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_msgs)
+[20.785s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs' for CMake module files
+[20.808s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs' for CMake config files
+[20.873s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amigo-pi/amigo_ros2_pi/src/sensor_integration' returned '0': PYTHONPATH=/home/amigo-pi/amigo_ros2_pi/build/sensor_integration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amigo-pi/amigo_ros2_pi/install/sensor_integration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_integration build --build-base /home/amigo-pi/amigo_ros2_pi/build/sensor_integration/build install --record /home/amigo-pi/amigo_ros2_pi/build/sensor_integration/install.log --single-version-externally-managed install_data
+[20.906s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_msgs', 'cmake_prefix_path')
+[20.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.ps1'
+[20.911s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.dsv'
+[20.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.sh'
+[20.925s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/lib'
+[20.928s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_msgs', 'ld_library_path_lib')
+[20.930s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.ps1'
+[20.938s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.dsv'
+[20.942s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.sh'
+[20.950s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/bin'
+[20.953s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/lib/pkgconfig/ublox_msgs.pc'
+[20.956s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/lib/python3.10/site-packages'
+[20.959s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/bin'
+[20.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/share/ublox_msgs/package.ps1'
+[20.974s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/share/ublox_msgs/package.dsv'
+[20.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/share/ublox_msgs/package.sh'
+[20.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/share/ublox_msgs/package.bash'
+[20.997s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/share/ublox_msgs/package.zsh'
+[21.004s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/share/colcon-core/packages/ublox_msgs)
+[21.018s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_msgs)
+[21.019s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs' for CMake module files
+[21.040s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs' for CMake config files
+[21.066s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amigo-pi/amigo_ros2_pi/src/camera_control' returned '0': PYTHONPATH=/home/amigo-pi/amigo_ros2_pi/build/camera_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_control build --build-base /home/amigo-pi/amigo_ros2_pi/build/camera_control/build install --record /home/amigo-pi/amigo_ros2_pi/build/camera_control/install.log --single-version-externally-managed install_data
+[21.110s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amigo-pi/amigo_ros2_pi/build/ublox_msgs' returned '0': AMENT_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:/opt/ros/humble /usr/bin/cmake --install /home/amigo-pi/amigo_ros2_pi/build/ublox_msgs
+[21.116s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_msgs', 'cmake_prefix_path')
+[21.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.ps1'
+[21.120s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.dsv'
+[21.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.sh'
+[21.130s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/lib'
+[21.131s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_msgs', 'ld_library_path_lib')
+[21.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.ps1'
+[21.139s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.dsv'
+[21.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.sh'
+[21.146s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/bin'
+[21.147s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/lib/pkgconfig/ublox_msgs.pc'
+[21.149s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/lib/python3.10/site-packages'
+[21.150s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/bin'
+[21.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/share/ublox_msgs/package.ps1'
+[21.157s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/share/ublox_msgs/package.dsv'
+[21.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/share/ublox_msgs/package.sh'
+[21.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/share/ublox_msgs/package.bash'
+[21.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/share/ublox_msgs/package.zsh'
+[21.172s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/share/colcon-core/packages/ublox_msgs)
+[21.175s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/amigo-pi/amigo_ros2_pi/src/ros2-ublox-zedf9p/ublox_gps' with build type 'ament_cmake'
+[21.176s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/amigo-pi/amigo_ros2_pi/src/ros2-ublox-zedf9p/ublox_gps'
+[21.177s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[21.178s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[21.270s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amigo-pi/amigo_ros2_pi/build/ublox_gps': AMENT_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs:/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs:/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/amigo-pi/amigo_ros2_pi/build/ublox_gps -- -j4 -l4
+[710.886s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amigo-pi/amigo_ros2_pi/build/ublox_gps' returned '0': AMENT_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs:/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs:/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/amigo-pi/amigo_ros2_pi/build/ublox_gps -- -j4 -l4
+[710.934s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amigo-pi/amigo_ros2_pi/build/ublox_gps': AMENT_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs:/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs:/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/amigo-pi/amigo_ros2_pi/build/ublox_gps
+[711.476s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_gps)
+[711.487s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_gps' for CMake module files
+[711.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amigo-pi/amigo_ros2_pi/build/ublox_gps' returned '0': AMENT_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs:/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs:/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/amigo-pi/amigo_ros2_pi/build/ublox_gps
+[711.492s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_gps' for CMake config files
+[711.499s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_gps', 'cmake_prefix_path')
+[711.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.ps1'
+[711.529s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.dsv'
+[711.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.sh'
+[711.553s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/lib'
+[711.555s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_gps', 'ld_library_path_lib')
+[711.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.ps1'
+[711.559s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.dsv'
+[711.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.sh'
+[711.569s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/bin'
+[711.570s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/lib/pkgconfig/ublox_gps.pc'
+[711.574s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/lib/python3.10/site-packages'
+[711.576s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/bin'
+[711.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ublox_gps/package.ps1'
+[711.585s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ublox_gps/package.dsv'
+[711.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ublox_gps/package.sh'
+[711.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ublox_gps/package.bash'
+[711.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ublox_gps/package.zsh'
+[711.609s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/colcon-core/packages/ublox_gps)
+[711.618s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_gps)
+[711.620s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_gps' for CMake module files
+[711.623s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_gps' for CMake config files
+[711.628s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_gps', 'cmake_prefix_path')
+[711.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.ps1'
+[711.633s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.dsv'
+[711.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.sh'
+[711.640s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/lib'
+[711.641s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_gps', 'ld_library_path_lib')
+[711.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.ps1'
+[711.646s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.dsv'
+[711.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.sh'
+[711.653s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/bin'
+[711.654s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/lib/pkgconfig/ublox_gps.pc'
+[711.656s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/lib/python3.10/site-packages'
+[711.658s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/bin'
+[711.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ublox_gps/package.ps1'
+[711.664s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ublox_gps/package.dsv'
+[711.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ublox_gps/package.sh'
+[711.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ublox_gps/package.bash'
+[711.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ublox_gps/package.zsh'
+[711.682s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/colcon-core/packages/ublox_gps)
+[711.686s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/amigo-pi/amigo_ros2_pi/src/ros2-ublox-zedf9p/ublox' with build type 'ament_cmake'
+[711.688s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/amigo-pi/amigo_ros2_pi/src/ros2-ublox-zedf9p/ublox'
+[711.690s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[711.691s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[711.840s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amigo-pi/amigo_ros2_pi/build/ublox': AMENT_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_gps:/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs:/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_gps:/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs:/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/lib:/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/amigo-pi/amigo_ros2_pi/src/ros2-ublox-zedf9p/ublox -DCMAKE_INSTALL_PREFIX=/home/amigo-pi/amigo_ros2_pi/install/ublox
+[716.885s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amigo-pi/amigo_ros2_pi/build/ublox' returned '0': AMENT_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_gps:/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs:/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_gps:/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs:/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/lib:/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/amigo-pi/amigo_ros2_pi/src/ros2-ublox-zedf9p/ublox -DCMAKE_INSTALL_PREFIX=/home/amigo-pi/amigo_ros2_pi/install/ublox
+[716.898s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amigo-pi/amigo_ros2_pi/build/ublox': AMENT_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_gps:/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs:/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_gps:/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs:/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/lib:/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/amigo-pi/amigo_ros2_pi/build/ublox -- -j4 -l4
+[717.053s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amigo-pi/amigo_ros2_pi/build/ublox' returned '0': AMENT_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_gps:/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs:/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_gps:/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs:/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/lib:/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/amigo-pi/amigo_ros2_pi/build/ublox -- -j4 -l4
+[717.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amigo-pi/amigo_ros2_pi/build/ublox': AMENT_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_gps:/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs:/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_gps:/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs:/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/lib:/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/amigo-pi/amigo_ros2_pi/build/ublox
+[717.114s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox)
+[717.115s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox' for CMake module files
+[717.117s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amigo-pi/amigo_ros2_pi/build/ublox' returned '0': AMENT_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_gps:/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs:/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_gps:/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs:/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/lib:/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/amigo-pi/amigo_ros2_pi/build/ublox
+[717.118s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox' for CMake config files
+[717.119s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox', 'cmake_prefix_path')
+[717.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amigo-pi/amigo_ros2_pi/install/ublox/share/ublox/hook/cmake_prefix_path.ps1'
+[717.122s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amigo-pi/amigo_ros2_pi/install/ublox/share/ublox/hook/cmake_prefix_path.dsv'
+[717.124s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amigo-pi/amigo_ros2_pi/install/ublox/share/ublox/hook/cmake_prefix_path.sh'
+[717.126s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox/bin'
+[717.126s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox/lib/pkgconfig/ublox.pc'
+[717.127s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox/lib/python3.10/site-packages'
+[717.128s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox/bin'
+[717.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/ublox/share/ublox/package.ps1'
+[717.132s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/amigo-pi/amigo_ros2_pi/install/ublox/share/ublox/package.dsv'
+[717.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/ublox/share/ublox/package.sh'
+[717.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/ublox/share/ublox/package.bash'
+[717.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/ublox/share/ublox/package.zsh'
+[717.139s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/amigo-pi/amigo_ros2_pi/install/ublox/share/colcon-core/packages/ublox)
+[717.142s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox)
+[717.143s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox' for CMake module files
+[717.145s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox' for CMake config files
+[717.146s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox', 'cmake_prefix_path')
+[717.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amigo-pi/amigo_ros2_pi/install/ublox/share/ublox/hook/cmake_prefix_path.ps1'
+[717.149s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amigo-pi/amigo_ros2_pi/install/ublox/share/ublox/hook/cmake_prefix_path.dsv'
+[717.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amigo-pi/amigo_ros2_pi/install/ublox/share/ublox/hook/cmake_prefix_path.sh'
+[717.153s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox/bin'
+[717.154s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox/lib/pkgconfig/ublox.pc'
+[717.155s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox/lib/python3.10/site-packages'
+[717.156s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/ublox/bin'
+[717.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/ublox/share/ublox/package.ps1'
+[717.159s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/amigo-pi/amigo_ros2_pi/install/ublox/share/ublox/package.dsv'
+[717.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/ublox/share/ublox/package.sh'
+[717.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/ublox/share/ublox/package.bash'
+[717.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/ublox/share/ublox/package.zsh'
+[717.167s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/amigo-pi/amigo_ros2_pi/install/ublox/share/colcon-core/packages/ublox)
+[717.169s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[717.172s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[717.172s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[717.173s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[717.267s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[717.267s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[717.267s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[717.565s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[717.567s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/amigo-pi/amigo_ros2_pi/install/local_setup.ps1'
+[717.573s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/amigo-pi/amigo_ros2_pi/install/_local_setup_util_ps1.py'
+[717.581s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/amigo-pi/amigo_ros2_pi/install/setup.ps1'
+[717.586s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/amigo-pi/amigo_ros2_pi/install/local_setup.sh'
+[717.590s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/amigo-pi/amigo_ros2_pi/install/_local_setup_util_sh.py'
+[717.592s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/amigo-pi/amigo_ros2_pi/install/setup.sh'
+[717.598s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/amigo-pi/amigo_ros2_pi/install/local_setup.bash'
+[717.601s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/amigo-pi/amigo_ros2_pi/install/setup.bash'
+[717.607s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/amigo-pi/amigo_ros2_pi/install/local_setup.zsh'
+[717.611s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/amigo-pi/amigo_ros2_pi/install/setup.zsh'

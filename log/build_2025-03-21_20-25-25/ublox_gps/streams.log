@@ -1,0 +1,49 @@
+[0.060s] Invoking command in '/home/amigo-pi/amigo_ros2_pi/build/ublox_gps': AMENT_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs:/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:/home/amigo-pi/amigo_ros2_pi/install/camera_control:/opt/ros/humble LD_LIBRARY_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/amigo-pi/amigo_ros2_pi/src/ros2-ublox-zedf9p/ublox_gps -DCMAKE_INSTALL_PREFIX=/home/amigo-pi/amigo_ros2_pi/install/ublox_gps
+[0.333s] -- The C compiler identification is GNU 11.4.0
+[0.595s] -- The CXX compiler identification is GNU 11.4.0
+[0.630s] -- Detecting C compiler ABI info
+[0.964s] -- Detecting C compiler ABI info - done
+[0.994s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.998s] -- Detecting C compile features
+[1.001s] -- Detecting C compile features - done
+[1.013s] -- Detecting CXX compiler ABI info
+[1.378s] -- Detecting CXX compiler ABI info - done
+[1.408s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.409s] -- Detecting CXX compile features
+[1.410s] -- Detecting CXX compile features - done
+[1.435s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.468s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.119s] -- Found asio: /usr/include  
+[3.153s] -- Found diagnostic_msgs: 4.2.4 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[3.517s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.562s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.623s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.697s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.801s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.024s] -- Found diagnostic_updater: 4.0.0 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[4.427s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.461s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.278s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.548s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.029s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.158s] -- Looking for pthread.h
+[6.519s] -- Looking for pthread.h - found
+[6.520s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.870s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.875s] -- Found Threads: TRUE  
+[7.172s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[7.242s] -- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)
+[7.513s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[7.619s] -- Found tf2: 0.25.11 (/opt/ros/humble/share/tf2/cmake)
+[7.641s] -- Found ublox_msgs: 2.2.0 (/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/share/ublox_msgs/cmake)
+[8.084s] -- Configuring done
+[8.203s] -- Generating done
+[8.238s] -- Build files have been written to: /home/amigo-pi/amigo_ros2_pi/build/ublox_gps
+[8.283s] Invoked command in '/home/amigo-pi/amigo_ros2_pi/build/ublox_gps' returned '0': AMENT_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs:/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:/home/amigo-pi/amigo_ros2_pi/install/camera_control:/opt/ros/humble LD_LIBRARY_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/amigo-pi/amigo_ros2_pi/src/ros2-ublox-zedf9p/ublox_gps -DCMAKE_INSTALL_PREFIX=/home/amigo-pi/amigo_ros2_pi/install/ublox_gps
+[8.292s] Invoking command in '/home/amigo-pi/amigo_ros2_pi/build/ublox_gps': AMENT_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs:/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:/home/amigo-pi/amigo_ros2_pi/install/camera_control:/opt/ros/humble LD_LIBRARY_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/amigo-pi/amigo_ros2_pi/build/ublox_gps -- -j4 -l4
+[8.531s] [  4%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/gnss.cpp.o[0m
+[8.535s] [  9%] [32mBuilding CXX object CMakeFiles/ublox_logger_node.dir/src/logger_node_pa.cpp.o[0m
+[8.536s] [ 13%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/adr_udr_product.cpp.o[0m
+[8.545s] [ 18%] [32mBuilding CXX object CMakeFiles/ublox_logger_node.dir/src/raw_data_pa.cpp.o[0m
+[10.242s] [ 22%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/gps.cpp.o[0m
+[36.926s] [ 27%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/hp_pos_rec_product.cpp.o[0m

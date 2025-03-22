@@ -1,0 +1,219 @@
+[0.814s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'camera_control', '--symlink-install']
+[0.815s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['camera_control'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff8fdf23e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8ff932e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8ff932e0>>, mixin_verb=('build',))
+[2.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.205s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/amigo-pi/amigo_ros2_pi'
+[2.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.277s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.277s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.277s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.278s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.278s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.278s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.279s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.279s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.279s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.280s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.280s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.280s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.280s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.280s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.282s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.282s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.282s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_control) by extensions ['ignore', 'ignore_ament_install']
+[2.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_control) by extension 'ignore'
+[2.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_control) by extension 'ignore_ament_install'
+[2.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_control) by extensions ['colcon_pkg']
+[2.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_control) by extension 'colcon_pkg'
+[2.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_control) by extensions ['colcon_meta']
+[2.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_control) by extension 'colcon_meta'
+[2.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_control) by extensions ['ros']
+[2.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_control) by extension 'ros'
+[2.296s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_control' with type 'ros.ament_python' and name 'camera_control'
+[2.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extensions ['ignore', 'ignore_ament_install']
+[2.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'ignore'
+[2.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'ignore_ament_install'
+[2.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extensions ['colcon_pkg']
+[2.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'colcon_pkg'
+[2.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extensions ['colcon_meta']
+[2.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'colcon_meta'
+[2.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extensions ['ros']
+[2.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'ros'
+[2.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extensions ['cmake', 'python']
+[2.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'cmake'
+[2.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'python'
+[2.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extensions ['python_setup_py']
+[2.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'python_setup_py'
+[2.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extensions ['ignore', 'ignore_ament_install']
+[2.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'ignore'
+[2.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'ignore_ament_install'
+[2.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extensions ['colcon_pkg']
+[2.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'colcon_pkg'
+[2.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extensions ['colcon_meta']
+[2.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'colcon_meta'
+[2.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extensions ['ros']
+[2.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'ros'
+[2.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extensions ['cmake', 'python']
+[2.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'cmake'
+[2.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'python'
+[2.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extensions ['python_setup_py']
+[2.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'python_setup_py'
+[2.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extensions ['ignore', 'ignore_ament_install']
+[2.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extension 'ignore'
+[2.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extension 'ignore_ament_install'
+[2.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extensions ['colcon_pkg']
+[2.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extension 'colcon_pkg'
+[2.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extensions ['colcon_meta']
+[2.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extension 'colcon_meta'
+[2.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extensions ['ros']
+[2.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extension 'ros'
+[2.311s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-ublox-zedf9p/ublox' with type 'ros.ament_cmake' and name 'ublox'
+[2.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extensions ['ignore', 'ignore_ament_install']
+[2.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extension 'ignore'
+[2.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extension 'ignore_ament_install'
+[2.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extensions ['colcon_pkg']
+[2.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extension 'colcon_pkg'
+[2.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extensions ['colcon_meta']
+[2.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extension 'colcon_meta'
+[2.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extensions ['ros']
+[2.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extension 'ros'
+[2.321s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-ublox-zedf9p/ublox_gps' with type 'ros.ament_cmake' and name 'ublox_gps'
+[2.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extension 'ignore'
+[2.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extension 'ignore_ament_install'
+[2.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extensions ['colcon_pkg']
+[2.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extension 'colcon_pkg'
+[2.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extensions ['colcon_meta']
+[2.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extension 'colcon_meta'
+[2.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extensions ['ros']
+[2.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extension 'ros'
+[2.327s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-ublox-zedf9p/ublox_msgs' with type 'ros.ament_cmake' and name 'ublox_msgs'
+[2.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extensions ['ignore', 'ignore_ament_install']
+[2.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extension 'ignore'
+[2.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extension 'ignore_ament_install'
+[2.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extensions ['colcon_pkg']
+[2.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extension 'colcon_pkg'
+[2.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extensions ['colcon_meta']
+[2.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extension 'colcon_meta'
+[2.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extensions ['ros']
+[2.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extension 'ros'
+[2.333s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-ublox-zedf9p/ublox_serialization' with type 'ros.ament_cmake' and name 'ublox_serialization'
+[2.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_integration) by extensions ['ignore', 'ignore_ament_install']
+[2.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_integration) by extension 'ignore'
+[2.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_integration) by extension 'ignore_ament_install'
+[2.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_integration) by extensions ['colcon_pkg']
+[2.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_integration) by extension 'colcon_pkg'
+[2.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_integration) by extensions ['colcon_meta']
+[2.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_integration) by extension 'colcon_meta'
+[2.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_integration) by extensions ['ros']
+[2.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_integration) by extension 'ros'
+[2.340s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensor_integration' with type 'ros.ament_python' and name 'sensor_integration'
+[2.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.512s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sensor_integration' in 'src/sensor_integration'
+[2.513s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ublox_serialization' in 'src/ros2-ublox-zedf9p/ublox_serialization'
+[2.513s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ublox_msgs' in 'src/ros2-ublox-zedf9p/ublox_msgs'
+[2.513s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ublox_gps' in 'src/ros2-ublox-zedf9p/ublox_gps'
+[2.513s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ublox' in 'src/ros2-ublox-zedf9p/ublox'
+[2.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.517s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.535s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/amigo-pi/amigo_ros2_pi/install
+[2.545s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 272 installed packages in /opt/ros/humble
+[2.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.730s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'cmake_args' from command line to 'None'
+[2.730s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'cmake_target' from command line to 'None'
+[2.730s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.730s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'cmake_clean_cache' from command line to 'False'
+[2.731s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'cmake_clean_first' from command line to 'False'
+[2.731s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'cmake_force_configure' from command line to 'False'
+[2.731s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'ament_cmake_args' from command line to 'None'
+[2.731s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'catkin_cmake_args' from command line to 'None'
+[2.731s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.731s] DEBUG:colcon.colcon_core.verb:Building package 'camera_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/amigo-pi/amigo_ros2_pi/build/camera_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/amigo-pi/amigo_ros2_pi/install/camera_control', 'merge_install': False, 'path': '/home/amigo-pi/amigo_ros2_pi/src/camera_control', 'symlink_install': True, 'test_result_base': None}
+[2.732s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.735s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.736s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/amigo-pi/amigo_ros2_pi/src/camera_control' with build type 'ament_python'
+[2.737s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_control', 'ament_prefix_path')
+[2.763s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amigo-pi/amigo_ros2_pi/install/camera_control/share/camera_control/hook/ament_prefix_path.ps1'
+[2.771s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amigo-pi/amigo_ros2_pi/install/camera_control/share/camera_control/hook/ament_prefix_path.dsv'
+[2.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amigo-pi/amigo_ros2_pi/install/camera_control/share/camera_control/hook/ament_prefix_path.sh'
+[2.781s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.781s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.148s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/amigo-pi/amigo_ros2_pi/src/camera_control'
+[4.149s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.149s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.605s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/amigo-pi/amigo_ros2_pi/install/camera_control/share/ament_index/resource_index/packages/camera_control
+[9.605s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/amigo-pi/amigo_ros2_pi/install/camera_control/share/camera_control/package.xml
+[9.610s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/camera_control/controller_test_node
+[9.610s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/camera_control/scan_controller_node
+[9.611s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/camera_control/scan_controller_service
+[9.617s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/amigo-pi/amigo_ros2_pi/build/camera_control': PYTHONPATH=/home/amigo-pi/amigo_ros2_pi/build/camera_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/amigo-pi/amigo_ros2_pi/build/camera_control/build --no-deps symlink_data --force
+[12.107s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_control', 'pythonpath_develop')
+[12.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amigo-pi/amigo_ros2_pi/build/camera_control/share/camera_control/hook/pythonpath_develop.ps1'
+[12.110s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/amigo-pi/amigo_ros2_pi/build/camera_control' returned '0': PYTHONPATH=/home/amigo-pi/amigo_ros2_pi/build/camera_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/amigo-pi/amigo_ros2_pi/build/camera_control/build --no-deps symlink_data --force
+[12.112s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amigo-pi/amigo_ros2_pi/build/camera_control/share/camera_control/hook/pythonpath_develop.dsv'
+[12.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amigo-pi/amigo_ros2_pi/build/camera_control/share/camera_control/hook/pythonpath_develop.sh'
+[12.143s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/camera_control' for CMake module files
+[12.146s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/camera_control' for CMake config files
+[12.150s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/camera_control/lib'
+[12.151s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/camera_control/bin'
+[12.151s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/pkgconfig/camera_control.pc'
+[12.152s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages'
+[12.152s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_control', 'pythonpath')
+[12.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amigo-pi/amigo_ros2_pi/install/camera_control/share/camera_control/hook/pythonpath.ps1'
+[12.156s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/amigo-pi/amigo_ros2_pi/install/camera_control/share/camera_control/hook/pythonpath.dsv'
+[12.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/amigo-pi/amigo_ros2_pi/install/camera_control/share/camera_control/hook/pythonpath.sh'
+[12.161s] Level 1:colcon.colcon_core.environment:checking '/home/amigo-pi/amigo_ros2_pi/install/camera_control/bin'
+[12.162s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_control)
+[12.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/camera_control/share/camera_control/package.ps1'
+[12.178s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/amigo-pi/amigo_ros2_pi/install/camera_control/share/camera_control/package.dsv'
+[12.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/camera_control/share/camera_control/package.sh'
+[12.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/camera_control/share/camera_control/package.bash'
+[12.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/amigo-pi/amigo_ros2_pi/install/camera_control/share/camera_control/package.zsh'
+[12.244s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/amigo-pi/amigo_ros2_pi/install/camera_control/share/colcon-core/packages/camera_control)
+[12.246s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.248s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.249s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.249s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.300s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.300s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.301s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.406s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.407s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/amigo-pi/amigo_ros2_pi/install/local_setup.ps1'
+[12.754s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/amigo-pi/amigo_ros2_pi/install/_local_setup_util_ps1.py'
+[13.010s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/amigo-pi/amigo_ros2_pi/install/setup.ps1'
+[13.271s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/amigo-pi/amigo_ros2_pi/install/local_setup.sh'
+[13.548s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/amigo-pi/amigo_ros2_pi/install/_local_setup_util_sh.py'
+[13.554s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/amigo-pi/amigo_ros2_pi/install/setup.sh'
+[13.830s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/amigo-pi/amigo_ros2_pi/install/local_setup.bash'
+[15.429s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/amigo-pi/amigo_ros2_pi/install/setup.bash'
+[15.470s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/amigo-pi/amigo_ros2_pi/install/local_setup.zsh'
+[15.476s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/amigo-pi/amigo_ros2_pi/install/setup.zsh'

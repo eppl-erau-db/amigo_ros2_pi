@@ -1,0 +1,85 @@
+[0.087s] Invoking command in '/home/amigo-pi/amigo_ros2_pi/build/ublox_gps': AMENT_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs:/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs:/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/amigo-pi/amigo_ros2_pi/build/ublox_gps -- -j4 -l4
+[0.391s] [35m[1mConsolidate compiler generated dependencies of target ublox_gps[0m
+[0.399s] [35m[1mConsolidate compiler generated dependencies of target ublox_logger_node[0m
+[0.491s] [  9%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/adr_udr_product.cpp.o[0m
+[0.492s] [  9%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/hp_pos_rec_product.cpp.o[0m
+[0.496s] [ 13%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/gps.cpp.o[0m
+[0.697s] [ 18%] [32mBuilding CXX object CMakeFiles/ublox_logger_node.dir/src/raw_data_pa.cpp.o[0m
+[128.424s] [ 22%] [32m[1mLinking CXX executable ublox_logger[0m
+[131.945s] [ 27%] Built target ublox_logger_node
+[138.449s] [ 31%] [32mBuilding C object CMakeFiles/ublox_gps.dir/src/mkgmtime.c.o[0m
+[139.327s] [ 36%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/node.cpp.o[0m
+[212.462s] [ 40%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/raw_data_pa.cpp.o[0m
+[213.523s] [ 45%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/hpg_rov_product.cpp.o[0m
+[214.629s] [ 50%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/hpg_ref_product.cpp.o[0m
+[314.090s] [ 54%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware.cpp.o[0m
+[352.187s] [ 59%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware6.cpp.o[0m
+[415.740s] [ 63%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware7.cpp.o[0m
+[462.870s] [ 68%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware8.cpp.o[0m
+[464.749s] [ 72%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/tim_product.cpp.o[0m
+[532.390s] [ 77%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware9.cpp.o[0m
+[577.591s] [ 81%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/raw_data_product.cpp.o[0m
+[630.032s] [ 86%] [32m[1mLinking CXX shared library libublox_gps.so[0m
+[646.842s] [ 90%] Built target ublox_gps
+[647.010s] [ 95%] [32mBuilding CXX object CMakeFiles/ublox_gps_node.dir/src/node_main.cpp.o[0m
+[682.011s] [100%] [32m[1mLinking CXX executable ublox_gps_node[0m
+[689.555s] [100%] Built target ublox_gps_node
+[689.699s] Invoked command in '/home/amigo-pi/amigo_ros2_pi/build/ublox_gps' returned '0': AMENT_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs:/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs:/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/amigo-pi/amigo_ros2_pi/build/ublox_gps -- -j4 -l4
+[689.751s] Invoking command in '/home/amigo-pi/amigo_ros2_pi/build/ublox_gps': AMENT_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs:/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs:/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/amigo-pi/amigo_ros2_pi/build/ublox_gps
+[689.818s] -- Install configuration: ""
+[689.826s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/lib/libublox_gps.so
+[690.068s] -- Set runtime path of "/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/lib/libublox_gps.so" to ""
+[690.069s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/lib/ublox_gps/ublox_gps_node
+[690.073s] -- Set runtime path of "/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/lib/ublox_gps/ublox_gps_node" to ""
+[690.073s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/lib/ublox_gps/ublox_logger
+[690.160s] -- Set runtime path of "/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/lib/ublox_gps/ublox_logger" to ""
+[690.161s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/include
+[690.161s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/include/ublox_gps
+[690.163s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/include/ublox_gps/rtcm.hpp
+[690.164s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/include/ublox_gps/hpg_rov_product.hpp
+[690.165s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/include/ublox_gps/fts_product.hpp
+[690.167s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/include/ublox_gps/hp_pos_rec_product.hpp
+[690.171s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/include/ublox_gps/adr_udr_product.hpp
+[690.173s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/include/ublox_gps/async_worker.hpp
+[690.175s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/include/ublox_gps/ublox_firmware.hpp
+[690.177s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/include/ublox_gps/ublox_firmware7.hpp
+[690.180s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/include/ublox_gps/ublox_firmware8.hpp
+[690.180s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/include/ublox_gps/gps.hpp
+[690.181s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/include/ublox_gps/fix_diagnostic.hpp
+[690.183s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/include/ublox_gps/ublox_firmware9.hpp
+[690.185s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/include/ublox_gps/tim_product.hpp
+[690.187s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/include/ublox_gps/component_interface.hpp
+[690.188s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/include/ublox_gps/ublox_firmware7plus.hpp
+[690.190s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/include/ublox_gps/utils.hpp
+[690.191s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/include/ublox_gps/worker.hpp
+[690.193s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/include/ublox_gps/ublox_firmware6.hpp
+[690.193s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/include/ublox_gps/raw_data_product.hpp
+[690.195s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/include/ublox_gps/node.hpp
+[690.196s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/include/ublox_gps/ublox_topic_diagnostic.hpp
+[690.198s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/include/ublox_gps/hpg_ref_product.hpp
+[690.199s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/include/ublox_gps/gnss.hpp
+[690.200s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/include/ublox_gps/mkgmtime.h
+[690.200s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/include/ublox_gps/callback.hpp
+[690.202s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/include/ublox_gps/raw_data_pa.hpp
+[690.205s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ublox_gps/launch
+[690.207s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ublox_gps/launch/ublox_gps_node-composed-launch.py
+[690.209s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ublox_gps/launch/ublox_gps_node_zedf9p-launch.py
+[690.211s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ublox_gps/config
+[690.214s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ublox_gps/config/zed_f9p.yaml
+[690.223s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ament_index/resource_index/package_run_dependencies/ublox_gps
+[690.225s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ament_index/resource_index/parent_prefix_path/ublox_gps
+[690.237s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ublox_gps/environment/ament_prefix_path.sh
+[690.241s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ublox_gps/environment/ament_prefix_path.dsv
+[690.244s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ublox_gps/environment/path.sh
+[690.248s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ublox_gps/environment/path.dsv
+[690.253s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ublox_gps/local_setup.bash
+[690.256s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ublox_gps/local_setup.sh
+[690.259s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ublox_gps/local_setup.zsh
+[690.261s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ublox_gps/local_setup.dsv
+[690.264s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ublox_gps/package.dsv
+[690.267s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ament_index/resource_index/packages/ublox_gps
+[690.271s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ament_index/resource_index/rclcpp_components/ublox_gps
+[690.276s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ublox_gps/cmake/ublox_gpsConfig.cmake
+[690.277s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ublox_gps/cmake/ublox_gpsConfig-version.cmake
+[690.280s] -- Installing: /home/amigo-pi/amigo_ros2_pi/install/ublox_gps/share/ublox_gps/package.xml
+[690.305s] Invoked command in '/home/amigo-pi/amigo_ros2_pi/build/ublox_gps' returned '0': AMENT_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs:/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs:/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/amigo-pi/amigo_ros2_pi/build/ublox_gps

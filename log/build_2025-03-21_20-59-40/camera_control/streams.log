@@ -1,0 +1,52 @@
+[11.124s] Invoking command in '/home/amigo-pi/amigo_ros2_pi/src/camera_control': PYTHONPATH=/home/amigo-pi/amigo_ros2_pi/build/camera_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_control build --build-base /home/amigo-pi/amigo_ros2_pi/build/camera_control/build install --record /home/amigo-pi/amigo_ros2_pi/build/camera_control/install.log --single-version-externally-managed install_data
+[16.474s] running egg_info
+[16.475s] creating ../../build/camera_control/camera_control.egg-info
+[16.476s] writing ../../build/camera_control/camera_control.egg-info/PKG-INFO
+[16.477s] writing dependency_links to ../../build/camera_control/camera_control.egg-info/dependency_links.txt
+[16.478s] writing entry points to ../../build/camera_control/camera_control.egg-info/entry_points.txt
+[16.479s] writing requirements to ../../build/camera_control/camera_control.egg-info/requires.txt
+[16.481s] writing top-level names to ../../build/camera_control/camera_control.egg-info/top_level.txt
+[16.482s] writing manifest file '../../build/camera_control/camera_control.egg-info/SOURCES.txt'
+[16.483s] reading manifest file '../../build/camera_control/camera_control.egg-info/SOURCES.txt'
+[16.483s] adding license file 'LICENSE'
+[16.483s] writing manifest file '../../build/camera_control/camera_control.egg-info/SOURCES.txt'
+[16.484s] running build
+[16.484s] running build_py
+[16.484s] creating /home/amigo-pi/amigo_ros2_pi/build/camera_control/build
+[16.484s] creating /home/amigo-pi/amigo_ros2_pi/build/camera_control/build/lib
+[16.485s] creating /home/amigo-pi/amigo_ros2_pi/build/camera_control/build/lib/camera_control
+[16.485s] copying camera_control/Camera_Client_example.py -> /home/amigo-pi/amigo_ros2_pi/build/camera_control/build/lib/camera_control
+[16.485s] copying camera_control/service_example.py -> /home/amigo-pi/amigo_ros2_pi/build/camera_control/build/lib/camera_control
+[16.486s] copying camera_control/__init__.py -> /home/amigo-pi/amigo_ros2_pi/build/camera_control/build/lib/camera_control
+[16.486s] copying camera_control/controller_test_node.py -> /home/amigo-pi/amigo_ros2_pi/build/camera_control/build/lib/camera_control
+[16.486s] copying camera_control/scan_controller_node.py -> /home/amigo-pi/amigo_ros2_pi/build/camera_control/build/lib/camera_control
+[16.486s] copying camera_control/scan_controller_service.py -> /home/amigo-pi/amigo_ros2_pi/build/camera_control/build/lib/camera_control
+[16.487s] running install
+[16.487s] running install_lib
+[16.491s] creating /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages/camera_control
+[16.492s] copying /home/amigo-pi/amigo_ros2_pi/build/camera_control/build/lib/camera_control/Camera_Client_example.py -> /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages/camera_control
+[16.493s] copying /home/amigo-pi/amigo_ros2_pi/build/camera_control/build/lib/camera_control/service_example.py -> /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages/camera_control
+[16.494s] copying /home/amigo-pi/amigo_ros2_pi/build/camera_control/build/lib/camera_control/__init__.py -> /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages/camera_control
+[16.494s] copying /home/amigo-pi/amigo_ros2_pi/build/camera_control/build/lib/camera_control/controller_test_node.py -> /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages/camera_control
+[16.495s] copying /home/amigo-pi/amigo_ros2_pi/build/camera_control/build/lib/camera_control/scan_controller_node.py -> /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages/camera_control
+[16.496s] copying /home/amigo-pi/amigo_ros2_pi/build/camera_control/build/lib/camera_control/scan_controller_service.py -> /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages/camera_control
+[16.496s] byte-compiling /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages/camera_control/Camera_Client_example.py to Camera_Client_example.cpython-310.pyc
+[16.497s] byte-compiling /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages/camera_control/service_example.py to service_example.cpython-310.pyc
+[16.498s] byte-compiling /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages/camera_control/__init__.py to __init__.cpython-310.pyc
+[16.499s] byte-compiling /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages/camera_control/controller_test_node.py to controller_test_node.cpython-310.pyc
+[16.500s] byte-compiling /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages/camera_control/scan_controller_node.py to scan_controller_node.cpython-310.pyc
+[16.502s] byte-compiling /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages/camera_control/scan_controller_service.py to scan_controller_service.cpython-310.pyc
+[16.503s] running install_data
+[16.504s] creating /home/amigo-pi/amigo_ros2_pi/install/camera_control/share/ament_index
+[16.505s] creating /home/amigo-pi/amigo_ros2_pi/install/camera_control/share/ament_index/resource_index
+[16.505s] creating /home/amigo-pi/amigo_ros2_pi/install/camera_control/share/ament_index/resource_index/packages
+[16.506s] copying resource/camera_control -> /home/amigo-pi/amigo_ros2_pi/install/camera_control/share/ament_index/resource_index/packages
+[16.507s] copying package.xml -> /home/amigo-pi/amigo_ros2_pi/install/camera_control/share/camera_control
+[16.509s] running install_egg_info
+[16.509s] Copying ../../build/camera_control/camera_control.egg-info to /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages/camera_control-0.0.1-py3.10.egg-info
+[16.510s] running install_scripts
+[16.538s] Installing controller_test_node script to /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/camera_control
+[16.540s] Installing scan_controller_node script to /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/camera_control
+[16.541s] Installing scan_controller_service script to /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/camera_control
+[16.544s] writing list of installed files to '/home/amigo-pi/amigo_ros2_pi/build/camera_control/install.log'
+[16.665s] Invoked command in '/home/amigo-pi/amigo_ros2_pi/src/camera_control' returned '0': PYTHONPATH=/home/amigo-pi/amigo_ros2_pi/build/camera_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_control build --build-base /home/amigo-pi/amigo_ros2_pi/build/camera_control/build install --record /home/amigo-pi/amigo_ros2_pi/build/camera_control/install.log --single-version-externally-managed install_data

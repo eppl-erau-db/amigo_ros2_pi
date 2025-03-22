@@ -3,6 +3,7 @@ import rclpy
 from rclpy.node import Node
 import time
 import board
+from std_msgs.msg import Bool
 from adafruit_motorkit import MotorKit
 from adafruit_motor import stepper
 
@@ -13,8 +14,14 @@ class CameraScanNode(Node):
         # Initialize the Motor Kit
         self.kit = MotorKit(i2c=board.I2C())
         
-        # Setting a timer to perform a scan every 10 seconds 
+        # Setting a timer to perform a scan every 40 seconds 
         self.timer = self.create_timer(40.0, self.timer_callback)
+        
+        # Publisher for Image Taking
+        self.publisher = self.create_publisher(Bool, '/take_picture', 10)
+        
+        # Initially setting to False
+        self.msg = Bool()
 
         # Initializing tracking variables
         self.heading = 0
@@ -25,26 +32,39 @@ class CameraScanNode(Node):
 
         # Scan positions (heading, pitch)
         self.scan_positions = [
-            (-135, 0), (-135, 45), (-90, 45), (-90, 0),
-            (-45, 0), (-45, 45), (0, 45), (0, 0),
-            (45, 0), (45, 45), (90, 45), (90, 0),
-            (135, 0), (135, 45), (0, 0)
-        ]
+            (-90, 45), (-90, 0),(-45, 0),
+            (-45, 45), (0, 45), (0, 0),
+            (45, 0), (45, 45), (90, 45), 
+            (90, 0),(0, 0)]
         self.scan_index = 0
-
-        # Timer for moving between scan positions every 0.5 seconds
-        self.create_timer(2.0, self.next_scan_step)
+       	
+        # Timer for moving between scan positions every 3.0 seconds
+        self.create_timer(3.0, self.next_scan_step)
             
     def timer_callback(self):
         """ Reset scan cycle when the timer triggers. """
-        self.scan_index = 0  # Reset to start position
+        # msg = Bool()
+        
+        # msg.data = True
+        # self.publisher.publish(msg)
+        # self.scan_index = 0  # Reset to start position
         
     def next_scan_step(self):
-        """ Command the camera to the next position """
+        """ Command the camera to the next position """  
+        msg = Bool()
+
+		# Go to the next Position           
         if self.scan_index < len(self.scan_positions):
             target_heading, target_pitch = self.scan_positions[self.scan_index]
             self.move_camera(target_heading, target_pitch)
             self.scan_index += 1
+
+        time.sleep(1)
+        msg.data = True
+        self.publisher.publish(msg)
+        time.sleep(0.5)
+        msg.data = False
+        self.publisher.publish(msg)
 
     def move_camera(self, target_heading, target_pitch):
         """ Move the camera to a target heading or target pitch """

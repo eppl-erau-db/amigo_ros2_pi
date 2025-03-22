@@ -1,0 +1,12 @@
+/home/amigo-pi/amigo_ros2_pi/build/ublox_gps/CMakeFiles/uninstall.dir
+/home/amigo-pi/amigo_ros2_pi/build/ublox_gps/CMakeFiles/ublox_gps_uninstall.dir
+/home/amigo-pi/amigo_ros2_pi/build/ublox_gps/CMakeFiles/ublox_gps.dir
+/home/amigo-pi/amigo_ros2_pi/build/ublox_gps/CMakeFiles/ublox_gps_node.dir
+/home/amigo-pi/amigo_ros2_pi/build/ublox_gps/CMakeFiles/ublox_logger_node.dir
+/home/amigo-pi/amigo_ros2_pi/build/ublox_gps/CMakeFiles/test.dir
+/home/amigo-pi/amigo_ros2_pi/build/ublox_gps/CMakeFiles/edit_cache.dir
+/home/amigo-pi/amigo_ros2_pi/build/ublox_gps/CMakeFiles/rebuild_cache.dir
+/home/amigo-pi/amigo_ros2_pi/build/ublox_gps/CMakeFiles/list_install_components.dir
+/home/amigo-pi/amigo_ros2_pi/build/ublox_gps/CMakeFiles/install.dir
+/home/amigo-pi/amigo_ros2_pi/build/ublox_gps/CMakeFiles/install/local.dir
+/home/amigo-pi/amigo_ros2_pi/build/ublox_gps/CMakeFiles/install/strip.dir

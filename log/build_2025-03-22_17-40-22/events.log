@@ -1,0 +1,93 @@
+[0.000000] (-) TimerEvent: {}
+[0.001325] (-) JobUnselected: {'identifier': 'sensor_integration'}
+[0.001578] (-) JobUnselected: {'identifier': 'ublox'}
+[0.001868] (-) JobUnselected: {'identifier': 'ublox_gps'}
+[0.002021] (-) JobUnselected: {'identifier': 'ublox_msgs'}
+[0.002103] (-) JobUnselected: {'identifier': 'ublox_serialization'}
+[0.002190] (camera_control) JobQueued: {'identifier': 'camera_control', 'dependencies': OrderedDict()}
+[0.002277] (camera_control) JobStarted: {'identifier': 'camera_control'}
+[0.097977] (-) TimerEvent: {}
+[0.198805] (-) TimerEvent: {}
+[0.299604] (-) TimerEvent: {}
+[0.400376] (-) TimerEvent: {}
+[0.501172] (-) TimerEvent: {}
+[0.601810] (-) TimerEvent: {}
+[0.702429] (-) TimerEvent: {}
+[0.803322] (-) TimerEvent: {}
+[0.904170] (-) TimerEvent: {}
+[1.005057] (-) TimerEvent: {}
+[1.105969] (-) TimerEvent: {}
+[1.206833] (-) TimerEvent: {}
+[1.307944] (-) TimerEvent: {}
+[1.409154] (-) TimerEvent: {}
+[1.509955] (-) TimerEvent: {}
+[1.610695] (-) TimerEvent: {}
+[1.711594] (-) TimerEvent: {}
+[1.812709] (-) TimerEvent: {}
+[1.913582] (-) TimerEvent: {}
+[2.014381] (-) TimerEvent: {}
+[2.115373] (-) TimerEvent: {}
+[2.216002] (-) TimerEvent: {}
+[2.316633] (-) TimerEvent: {}
+[2.417300] (-) TimerEvent: {}
+[2.517983] (-) TimerEvent: {}
+[2.618634] (-) TimerEvent: {}
+[2.719237] (-) TimerEvent: {}
+[2.819873] (-) TimerEvent: {}
+[2.920646] (-) TimerEvent: {}
+[3.021753] (-) TimerEvent: {}
+[3.122532] (-) TimerEvent: {}
+[3.223389] (-) TimerEvent: {}
+[3.324795] (-) TimerEvent: {}
+[3.426982] (-) TimerEvent: {}
+[3.527754] (-) TimerEvent: {}
+[3.628557] (-) TimerEvent: {}
+[3.729435] (-) TimerEvent: {}
+[3.830354] (-) TimerEvent: {}
+[3.931748] (-) TimerEvent: {}
+[3.968130] (camera_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/amigo-pi/amigo_ros2_pi/build/camera_control/build', '--no-deps', 'symlink_data'], 'cwd': '/home/amigo-pi/amigo_ros2_pi/build/camera_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'amigo-pi', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/amigo-pi/amigo_ros2_pi/install/ublox_gps/lib:/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/amigo-pi', 'OLDPWD': '/home/amigo-pi', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1927', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/amigo-pi/amigo_ros2_pi/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'amigo-pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'amigo-pi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/amigo-pi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/amigopi-desktop:@/tmp/.ICE-unix/1668,unix/amigopi-desktop:/tmp/.ICE-unix/1668', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/243293e9_ea39_4b3a_8811_d9dc8a84ab98', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.MCYA32', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.95', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/amigo-pi/amigo_ros2_pi/install/ublox:/home/amigo-pi/amigo_ros2_pi/install/ublox_gps:/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs:/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization:/home/amigo-pi/amigo_ros2_pi/install/sensor_integration:/home/amigo-pi/amigo_ros2_pi/install/camera_control:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/amigo-pi/amigo_ros2_pi/build/camera_control', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/amigo-pi/amigo_ros2_pi/build/camera_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages:/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs/local/lib/python3.10/dist-packages:/home/amigo-pi/amigo_ros2_pi/install/sensor_integration/lib/python3.10/site-packages:/home/amigo-pi/amigo_ros2_pi/build/camera_control:/home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/amigo-pi/amigo_ros2_pi/install/ublox:/home/amigo-pi/amigo_ros2_pi/install/ublox_gps:/home/amigo-pi/amigo_ros2_pi/install/ublox_msgs:/home/amigo-pi/amigo_ros2_pi/install/ublox_serialization'}, 'shell': False}
+[4.031959] (-) TimerEvent: {}
+[4.132733] (-) TimerEvent: {}
+[4.233471] (-) TimerEvent: {}
+[4.334115] (-) TimerEvent: {}
+[4.434762] (-) TimerEvent: {}
+[4.535383] (-) TimerEvent: {}
+[4.636024] (-) TimerEvent: {}
+[4.736636] (-) TimerEvent: {}
+[4.837322] (-) TimerEvent: {}
+[4.937938] (-) TimerEvent: {}
+[5.038579] (-) TimerEvent: {}
+[5.139217] (-) TimerEvent: {}
+[5.239926] (-) TimerEvent: {}
+[5.298759] (camera_control) StdoutLine: {'line': b'running develop\n'}
+[5.340275] (-) TimerEvent: {}
+[5.441453] (-) TimerEvent: {}
+[5.542176] (-) TimerEvent: {}
+[5.642797] (-) TimerEvent: {}
+[5.743409] (-) TimerEvent: {}
+[5.844072] (-) TimerEvent: {}
+[5.944789] (-) TimerEvent: {}
+[6.045463] (-) TimerEvent: {}
+[6.146077] (-) TimerEvent: {}
+[6.246727] (-) TimerEvent: {}
+[6.251759] (camera_control) StdoutLine: {'line': b'running egg_info\n'}
+[6.252501] (camera_control) StdoutLine: {'line': b'writing camera_control.egg-info/PKG-INFO\n'}
+[6.253936] (camera_control) StdoutLine: {'line': b'writing dependency_links to camera_control.egg-info/dependency_links.txt\n'}
+[6.254852] (camera_control) StdoutLine: {'line': b'writing entry points to camera_control.egg-info/entry_points.txt\n'}
+[6.255559] (camera_control) StdoutLine: {'line': b'writing requirements to camera_control.egg-info/requires.txt\n'}
+[6.256262] (camera_control) StdoutLine: {'line': b'writing top-level names to camera_control.egg-info/top_level.txt\n'}
+[6.265145] (camera_control) StdoutLine: {'line': b"reading manifest file 'camera_control.egg-info/SOURCES.txt'\n"}
+[6.269890] (camera_control) StdoutLine: {'line': b"writing manifest file 'camera_control.egg-info/SOURCES.txt'\n"}
+[6.276632] (camera_control) StdoutLine: {'line': b'running build_ext\n'}
+[6.278923] (camera_control) StdoutLine: {'line': b'Creating /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages/camera-control.egg-link (link to .)\n'}
+[6.282307] (camera_control) StdoutLine: {'line': b'Installing controller_test_node script to /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/camera_control\n'}
+[6.283235] (camera_control) StdoutLine: {'line': b'Installing scan_controller_node script to /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/camera_control\n'}
+[6.284095] (camera_control) StdoutLine: {'line': b'Installing scan_controller_service script to /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/camera_control\n'}
+[6.285612] (camera_control) StdoutLine: {'line': b'\n'}
+[6.286440] (camera_control) StdoutLine: {'line': b'Installed /home/amigo-pi/amigo_ros2_pi/build/camera_control\n'}
+[6.287176] (camera_control) StdoutLine: {'line': b'running symlink_data\n'}
+[6.347040] (-) TimerEvent: {}
+[6.436137] (camera_control) CommandEnded: {'returncode': 0}
+[6.447298] (-) TimerEvent: {}
+[6.521686] (camera_control) JobEnded: {'identifier': 'camera_control', 'rc': 0}
+[6.524913] (-) EventReactorShutdown: {}

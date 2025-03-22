@@ -1,0 +1,19 @@
+[3.970s] Invoking command in '/home/amigo-pi/amigo_ros2_pi/build/camera_control': PYTHONPATH=/home/amigo-pi/amigo_ros2_pi/build/camera_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/amigo-pi/amigo_ros2_pi/build/camera_control/build --no-deps symlink_data
+[5.297s] running develop
+[6.250s] running egg_info
+[6.250s] writing camera_control.egg-info/PKG-INFO
+[6.252s] writing dependency_links to camera_control.egg-info/dependency_links.txt
+[6.253s] writing entry points to camera_control.egg-info/entry_points.txt
+[6.254s] writing requirements to camera_control.egg-info/requires.txt
+[6.254s] writing top-level names to camera_control.egg-info/top_level.txt
+[6.263s] reading manifest file 'camera_control.egg-info/SOURCES.txt'
+[6.268s] writing manifest file 'camera_control.egg-info/SOURCES.txt'
+[6.275s] running build_ext
+[6.277s] Creating /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages/camera-control.egg-link (link to .)
+[6.280s] Installing controller_test_node script to /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/camera_control
+[6.281s] Installing scan_controller_node script to /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/camera_control
+[6.282s] Installing scan_controller_service script to /home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/camera_control
+[6.284s] 
+[6.285s] Installed /home/amigo-pi/amigo_ros2_pi/build/camera_control
+[6.285s] running symlink_data
+[6.436s] Invoked command in '/home/amigo-pi/amigo_ros2_pi/build/camera_control' returned '0': PYTHONPATH=/home/amigo-pi/amigo_ros2_pi/build/camera_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amigo-pi/amigo_ros2_pi/install/camera_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/amigo-pi/amigo_ros2_pi/build/camera_control/build --no-deps symlink_data

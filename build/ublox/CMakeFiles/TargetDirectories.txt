@@ -1,0 +1,9 @@
+/home/amigo-pi/amigo_ros2_pi/build/ublox/CMakeFiles/uninstall.dir
+/home/amigo-pi/amigo_ros2_pi/build/ublox/CMakeFiles/ublox_uninstall.dir
+/home/amigo-pi/amigo_ros2_pi/build/ublox/CMakeFiles/test.dir
+/home/amigo-pi/amigo_ros2_pi/build/ublox/CMakeFiles/edit_cache.dir
+/home/amigo-pi/amigo_ros2_pi/build/ublox/CMakeFiles/rebuild_cache.dir
+/home/amigo-pi/amigo_ros2_pi/build/ublox/CMakeFiles/list_install_components.dir
+/home/amigo-pi/amigo_ros2_pi/build/ublox/CMakeFiles/install.dir
+/home/amigo-pi/amigo_ros2_pi/build/ublox/CMakeFiles/install/local.dir
+/home/amigo-pi/amigo_ros2_pi/build/ublox/CMakeFiles/install/strip.dir
