@@ -3,7 +3,7 @@ AMIGO ROS2 Support for Pi
 
 Sourcing ROS on the Pi:
 ```
-. ~/ros2_humble/ros2-linux/setup.bash
+. ~/ros2_jazzy/ros2-linux/setup.bash
 ```
 
 Running the current camera control node, make sure to supply 5V to the Pi and 5V to the stepper HAT
